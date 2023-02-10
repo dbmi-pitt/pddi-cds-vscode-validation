@@ -90,8 +90,10 @@ For this walkthrough, we'll be putting together a recommendation regarding the u
 Specifically, we'll be looking at the following recommendations:
 
 
-> Patients taking a citalopram dose of more than 60 mg in combination with QT prolonging agent should continue use only if benefit outweighs the risk and have ECG monitored
+> Patients taking a citalopram dose of more than 60 mg in combination with QT prolonging agent should continue use only if benefit outweighs the risk and have ECG monitored.
+
 > Patients taking a citalopram dose of more than 60 mg without a QT prolonging agent should have risks minimized and ECG monitored
+
 > Patients taking a citalopram dose of less than 60 mg with or without a QT prolonging agent require no special precautions
 
 
@@ -100,7 +102,9 @@ Specifically, we'll be looking at the following recommendations:
 First, we break down the recommendation into "pseudo-code" to get to a functional description of what needs to happen in order to apply the recommendations:
 
 > If 60 mg or more dose of citalopram detected, and QT prolonging agent detected then recommend “Use only if benefit outweighs the risk and monitor patient ECG.”
+
 > If 60 mg or more dose of citalopram detected, and QT prolonging agent not detected then recommend “Minimize risk and monitor ECG.”
+
 > If less than 60 mg dose of citalopram detected then recommend “No special precaution.”
 
 
