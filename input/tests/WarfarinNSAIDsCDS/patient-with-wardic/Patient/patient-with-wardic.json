@@ -1,0 +1,20 @@
+{ 
+    "resourceType": "Patient",
+    "id": "patient-with-wardic",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Diclo <b>FENAC </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>26 October 1989</span></td></tr></tbody></table></div>"
+    },
+    "active": true,
+    "name": [
+      {
+        "text": "Diclo Fenac",
+        "family": "Fenac",
+        "given": [
+          "Diclo"
+        ]
+      }
+    ],
+    "gender": "male",
+    "birthDate": "1989-10-26"
+  }

@@ -1,0 +1,21 @@
+{ 
+    "resourceType": "MedicationStatement",
+    "id": "patient-with-wardic-warfarin",
+    "status": "active",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "855296",
+          "display": "warfarin sodium 10 MG Oral Tablet"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-with-wardic"
+    },
+    "effectivePeriod": {
+      "start": "2022-12-17T23:59:59+06:00",
+      "end": "2023-01-17T23:59:59+06:00"
+    }
+  }

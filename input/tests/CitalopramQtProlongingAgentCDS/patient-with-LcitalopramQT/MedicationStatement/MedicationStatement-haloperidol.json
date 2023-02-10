@@ -1,0 +1,22 @@
+{
+"resourceType": "MedicationStatement",
+        "id": "patient-with-LcitalopramQT-haloperidol",
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "108873",
+              "display": "haloperidol 0.2 MG/ML Oral Solution"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/patient-with-LcitalopramQT"
+        },
+        "effectivePeriod": {
+            "start": "2022-12-17T23:59:59+06:00",
+            "end": "2023-01-17T23:59:59+06:00"
+          }
+
+    }

@@ -1,0 +1,37 @@
+{
+    "resourceType": "MedicationStatement",
+    "id": "patient-with-Lcitalopram-citalopram",
+    "status": "active",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "display": "citalopram 40 MG",
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "329445"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-with-Lcitalopram"
+    },
+    "effectivePeriod": {
+        "start": "2022-12-17T23:59:59+06:00",
+        "end": "2023-01-17T23:59:59+06:00"
+      },
+    "dosage": {
+      "timing": {
+        "repeat":{
+          "frequency": 1,
+          "period": 1,
+          "periodUnit": "d"
+        }
+      },   
+      "doseAndRate":[{
+        "doseQuantity": {
+          "value": 40,
+          "unit": "mg"
+        }
+      }
+      ]
+    }
+}

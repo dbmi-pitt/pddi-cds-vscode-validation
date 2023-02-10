@@ -1,0 +1,20 @@
+{ 
+    "resourceType": "Patient",
+    "id": "patient-with-ppi",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">PPI <b>MISOPROSTOL </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>26 October 1989</span></td></tr></tbody></table></div>"
+    },
+    "active": true,
+    "name": [
+      {
+        "text": "PPI Misoprostol",
+        "family": "Misoprostol",
+        "given": [
+          "PPI"
+        ]
+      }
+    ],
+    "gender": "male",
+    "birthDate": "1989-10-26"
+  }

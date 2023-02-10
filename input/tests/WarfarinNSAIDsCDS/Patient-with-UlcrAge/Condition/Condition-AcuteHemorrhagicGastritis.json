@@ -1,0 +1,18 @@
+{ 
+    "resourceType": "Condition",
+    "id": "Patient-with-UlcrAge-AcuteHemorrhagicGastritis",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "2367005",
+          "display": "Acute hemorrhagic gastritis"
+        }
+      ],
+      "text": "Acute hemorrhagic gastritis"
+    },
+    "subject": {
+      "reference": "Patient/Patient-with-UlcrAge"
+    },
+    "onsetDateTime": "2022-12-25T23:59:59+06:00"
+  }

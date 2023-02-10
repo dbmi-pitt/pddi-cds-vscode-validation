@@ -1,0 +1,78 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="valueset-citaloprams"/>
+                <url value="http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-citaloprams"/>
+                <name value="valueset-citaloprams"/>
+                <version value="US 1.0"/>
+                <title value="Citaloprams Medications Value Set"/>
+                <status value="draft"/>
+                <date value="2018-06-20"/>
+                <publisher value="PDDI CDS"/>
+                <contact>
+                    <name value="Richard Boyce boycerd@upmc.edu"/>
+                </contact>
+                <description
+                        value="Includes RxNorm codes for any form of Citalopram medications."/>
+                <jurisdiction>
+                    <coding>
+                        <system value="urn:iso:std:iso:3166"/>
+                        <code value="US"/>
+                        <display value="United States of America"/>
+                    </coding>
+                </jurisdiction>
+                <purpose value="Provide terminology for PDDI CDS (citaloprams + QT rule) FHIR resources"/>
+                <copyright value="Attribution CC BY"/>
+                <compose>
+                    <include>
+                        <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                        <version value="04-Jun-2018"/>
+                        <concept>
+                            <code value="200371"/>
+                            <display value="citalopram 20 MG Oral Tablet"/>
+                        </concept>
+                        <concept>
+                            <code value="283672"/>
+                            <display value="citalopram 10 MG Oral Tablet"/>
+                        </concept>
+                        <concept>
+                            <code value="309313"/>
+                            <display value="citalopram 2 MG/ML Oral Solution"/>
+                        </concept>
+                        <concept>
+                            <code value="309314"/>
+                            <display value="citalopram 40 MG Oral Tablet"/>
+                        </concept>
+                        <concept>
+                            <code value="329444"/>
+                            <display value="citalopram 20 MG"/>
+                        </concept>
+                        <concept>
+                            <code value="329445"/>
+                            <display value="citalopram 40 MG"/>
+                        </concept>
+                        <concept>
+                            <code value="330309"/>
+                            <display value="citalopram 2 MG/ML"/>
+                        </concept>
+                        <concept>
+                            <code value="331567"/>
+                            <display value="citalopram 10 MG"/>
+                        </concept>
+                        <concept>
+                            <code value="389202"/>
+                            <display value="citalopram 40 MG/ML Oral Solution"/>
+                        </concept>
+                        <concept>
+                            <code value="645289"/>
+                            <display value="citalopram 10 MG Disintegrating Oral Tablet"/>
+                        </concept>
+                        <concept>
+                            <code value="645290"/>
+                            <display value="citalopram 20 MG Disintegrating Oral Tablet"/>
+                        </concept>
+                        <concept>
+                            <code value="645291"/>
+                            <display value="citalopram 40 MG Disintegrating Oral Tablet"/>
+                        </concept>
+                    </include>
+                </compose>
+            </ValueSet>

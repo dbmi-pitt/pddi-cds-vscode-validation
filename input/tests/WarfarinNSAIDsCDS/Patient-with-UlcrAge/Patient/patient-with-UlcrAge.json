@@ -1,0 +1,20 @@
+{ 
+        "resourceType": "Patient",
+        "id": "Patient-with-UlcrAge",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Ul <b>CER </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>26 October 1989</span></td></tr></tbody></table></div>"
+        },
+        "active": true,
+        "name": [
+          {
+            "text": "Ul Cer",
+            "family": "Cer",
+            "given": [
+              "Ul"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1955-10-26"
+      }

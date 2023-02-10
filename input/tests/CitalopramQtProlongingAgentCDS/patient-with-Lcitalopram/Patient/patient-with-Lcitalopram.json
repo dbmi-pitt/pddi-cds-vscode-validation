@@ -1,0 +1,16 @@
+{
+  "resourceType": "Patient",
+        "id": "patient-with-Lcitalopram",
+        "name": [
+          {
+            "use": "official",
+            "family": "Shaw",
+            "given": [
+              "Amy",
+              "V"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1952-01-07"
+      }
