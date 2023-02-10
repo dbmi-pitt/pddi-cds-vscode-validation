@@ -92,9 +92,9 @@ Specifically, we'll be looking at the following recommendations:
 
 > Patients taking a citalopram dose of more than 60 mg in combination with QT prolonging agent should continue use only if benefit outweighs the risk and have ECG monitored.
 
-> Patients taking a citalopram dose of more than 60 mg without a QT prolonging agent should have risks minimized and ECG monitored
+> Patients taking a citalopram dose of more than 60 mg without a QT prolonging agent should have risks minimized and ECG monitored.
 
-> Patients taking a citalopram dose of less than 60 mg with or without a QT prolonging agent require no special precautions
+> Patients taking a citalopram dose of less than 60 mg with or without a QT prolonging agent require no special precautions.
 
 
 #### Pseudo-code for the Logic
