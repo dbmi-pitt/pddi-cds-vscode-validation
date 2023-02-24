@@ -1,0 +1,150 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="valueset-immunosuppressants"/>
+                <url value="http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-immunosuppressant"/>
+                <name value="valueset-immunosuppressant"/>
+                <version value="US 1.0"/>
+                <title value="Immunosuppressant Medications Value Set"/>
+                <status value="draft"/>
+                <date value="2018-06-20"/>
+                <publisher value="PDDI CDS"/>
+                <contact>
+                    <name value="Richard Boyce boycerd@upmc.edu"/>
+                </contact>
+                <description
+                        value="Includes RxNorm codes for any form of Immunosuppressant medications."/>
+                <jurisdiction>
+                    <coding>
+                        <system value="urn:iso:std:iso:3166"/>
+                        <code value="US"/>
+                        <display value="United States of America"/>
+                    </coding>
+                </jurisdiction>
+                <purpose value="Provide terminology for PDDI CDS (Immunosuppressants + Fluconazole rule) FHIR resources"/>
+                <copyright value="Attribution CC BY"/>
+                <compose>
+         <include>
+            <system value="http://www.nlm.nih.gov/research/umls/rxnorm" />
+            <version value="02-Feb-2023" />
+            <concept>
+              <code value="1093174" />
+              <display value="cyclosporine 0.002 MG/MG Ophthalmic Ointment"/> />
+            </concept>
+            <concept>
+              <code value="1119400" />
+              <display value="everolimus 7.5 MG Oral Tablet"/> />
+            </concept>
+            <concept>
+              <code value="1308428" />
+              <display value="everolimus 2 MG Tablet for Oral Suspension"/> />
+            </concept>
+            <concept>
+              <code value="1308430" />
+              <display value="everolimus 3 MG Tablet for Oral Suspension"/> />
+            </concept>
+            <concept>
+              <code value="1308432" />
+              <display value="everolimus 5 MG Tablet for Oral Suspension"/> />
+            </concept>
+            <concept>
+              <code value="197553" />
+              <display value="cyclosporine 25 MG Oral Capsule"/> />
+            </concept>
+            <concept>
+              <code value="198377" />
+              <display value="tacrolimus 1 MG Oral Capsule"/> />
+            </concept>
+            <concept>
+              <code value="198378" />
+              <display value="tacrolimus 5 MG Oral Capsule"/> />
+            </concept>
+            <concept>
+              <code value="198379" />
+              <display value="1 ML tacrolimus 5 MG/ML Injection"/> />
+            </concept>
+            <concept>
+              <code value="205168" />
+              <display value="cyclosporine 50 MG Oral Capsule"/> />
+            </concept>
+            <concept>
+              <code value="205175" />
+              <display value="5 ML cyclosporine 50 MG/ML Injection"/> />
+            </concept>
+            <concept>
+              <code value="241834" />
+              <display value="cyclosporine, modified 100 MG Oral Capsule"/> />
+            </concept>
+            <concept>
+              <code value="309632" />
+              <display value="cyclosporine 100 MG/ML Oral Solution"/> />
+            </concept>
+            <concept>
+              <code value="313190" />
+              <display value="tacrolimus 0.5 MG Oral Capsule"/> />
+            </concept>
+            <concept>
+              <code value="314230" />
+              <display value="sirolimus 1 MG/ML Oral Solution"/> />
+            </concept>
+            <concept>
+              <code value="328160" />
+              <display value="cyclosporine 100 MG Oral Capsule"/> />
+            </concept>
+            <concept>
+              <code value="349208" />
+              <display value="sirolimus 1 MG Oral Tablet"/> />
+            </concept>
+            <concept>
+              <code value="351291" />
+              <display value="cyclosporine 0.5 MG/ML Ophthalmic Suspension"/> />
+            </concept>
+            <concept>
+              <code value="360110" />
+              <display value="sirolimus 2 MG Oral Tablet"/> />
+            </concept>
+            <concept>
+              <code value="835886" />
+              <display value="cyclosporine, modified 100 MG/ML Oral Solution"/> />
+            </concept>
+            <concept>
+              <code value="835894" />
+              <display value="cyclosporine, modified 25 MG Oral Capsule"/> />
+            </concept>
+            <concept>
+              <code value="835919" />
+              <display value="cyclosporine, modified 10 MG Oral Capsule"/> />
+            </concept>
+            <concept>
+              <code value="835925" />
+              <display value="cyclosporine, modified 50 MG Oral Capsule"/> />
+            </concept>
+            <concept>
+              <code value="845507" />
+              <display value="everolimus 10 MG Oral Tablet"/> />
+            </concept>
+            <concept>
+              <code value="845515" />
+              <display value="everolimus 5 MG Oral Tablet"/> />
+            </concept>
+            <concept>
+              <code value="905158" />
+              <display value="sirolimus 0.5 MG Oral Tablet"/> />
+            </concept>
+            <concept>
+              <code value="977427" />
+              <display value="everolimus 0.25 MG Oral Tablet"/> />
+            </concept>
+            <concept>
+              <code value="977434" />
+              <display value="everolimus 0.5 MG Oral Tablet"/> />
+            </concept>
+            <concept>
+              <code value="977438" />
+              <display value="everolimus 0.75 MG Oral Tablet"/> />
+            </concept>
+            <concept>
+              <code value="998189" />
+              <display value="everolimus 2.5 MG Oral Tablet"/> />
+            </concept>
+            </include>
+        </compose>
+      </ValueSet>

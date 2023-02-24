@@ -78,7 +78,7 @@ define "Citalopram Not High Dosage, QT":
   and
   ( exists
     (
-    [MedicationStatement: "Citaloprams"] MS
+  [MedicationStatement: "Citaloprams"] MS
     where 
         (System.Quantity { 
               value: (MS.dosage[0].doseAndRate[0].dose).value * 
