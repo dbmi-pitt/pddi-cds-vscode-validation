@@ -59,7 +59,7 @@ define "Immunosuppressant Rx":
     )
 
 
-define "PO Fluconazole Rx":
+define "PO Fluconazoles Rx":
     (
       [MedicationStatement: "PO Fluconazoles"] MS
         where (Today() - 100 days) < MS.effective.start.value  // or, could be hard-coded e.g., > @2022-11-01 
@@ -84,10 +84,16 @@ define "IV Fluconazoles Rx":
       where MR.authoredOn.value > (Today() - 100 days) // or, could be hard-coded e.g., > @2022-11-01 
       return MR.medication.coding[0]
     )
+define "Fluconazoles Rx"
+exists "PO Fluconazoles Rx"
+or 
+exists "IV Fluconazoles Rx"
 
-
-define "Low dose PO Fluconazole":
-if ( exists
+define "Low dose PO Fluconazole with Immunosuppressant":
+if 
+  exists "Immunosuppressant Rx"
+  and 
+  ( exists
     (
     [MedicationStatement: "PO Fluconazoles"] MS
     where 
@@ -110,8 +116,11 @@ if ( exists
   )
   then true else false
 
-define "High dose PO Fluconazole":
-if ( exists
+define "High dose PO Fluconazole with Immunosuppressant":
+if 
+  exists "Immunosuppressant Rx"
+  and 
+( exists
     (
     [MedicationStatement: "PO Fluconazoles"] MS
     where 
@@ -135,8 +144,11 @@ if ( exists
   then true else false
 
 
-define "High dose IV Fluconazole": 
-if ( exists
+define "High dose IV Fluconazole with Immunosuppressant": 
+if 
+  exists "Immunosuppressant Rx"
+  and 
+( exists
     (
     [MedicationStatement: "IV Fluconazoles"] MS
     where 
@@ -159,8 +171,11 @@ if ( exists
   )
   then true else false
 
-define "Low dose IV Fluconazole": 
- if ( exists
+define "Low dose IV Fluconazole with Immunosuppressant": 
+ if 
+  exists "Immunosuppressant Rx"
+  and 
+  ( exists
     (
     [MedicationStatement: "IV Fluconazoles"] MS
     where 
@@ -183,19 +198,31 @@ define "Low dose IV Fluconazole":
   )
  then true else false
 
-define "Age greater than 18 years":
-    AgeInYears() > 18
+define "Age greater than 18 years with Immunosuppressant":
+exists "Immunosuppressant Rx"
+ and 
+ exists "Fluconazoles Rx"
+ and 
+AgeInYears() > 18
+
+
 
 define "Recommendation":
-  if ("Low dose IV Fluconazole" or "Low dose PO Fluconazole") then 'No special precaution'
-  else if ("High dose IV Fluconazole" or "High dose PO Fluconazole") then 'Use only if benefit outweighs risk'
-  else if "Age greater than 18 years" then 'Use only if benefit outweighs risk'
+  if ("Low dose IV Fluconazole with Immunosuppressant" or "Low dose PO Fluconazole with Immunosuppressant") 
+      then 'No special precaution'
+  else if ("High dose IV Fluconazole with Immunosuppressant" or "High dose PO Fluconazole with Immunosuppressant") 
+      then 'Use only if benefit outweighs risk'
+  else if "Age greater than 18 years with Immunosuppressant" 
+      then 'Use only if benefit outweighs risk'
   else null
 
 
 define "Rationale":
-  if ("Low dose IV Fluconazole" or "Low dose PO Fluconazole") then 'Increased risk of immunosuppressant toxicity unlikely'
-  else if ("High dose IV Fluconazole" or "High dose PO Fluconazole") then 'Increased risk of immunosuppressant toxicity likely'
-  else if "Age greater than 18 years" then 'Increased risk of immunosuppressant toxicity likely'
+  if ("Low dose IV Fluconazole with Immunosuppressant" or "Low dose PO Fluconazole with Immunosuppressant") 
+      then 'Increased risk of immunosuppressant toxicity unlikely'
+  else if ("High dose IV Fluconazole with Immunosuppressant" or "High dose PO Fluconazole with Immunosuppressant") 
+      then 'Increased risk of immunosuppressant toxicity likely'
+  else if "Age greater than 18 years with Immunosuppressant" 
+      then 'Increased risk of immunosuppressant toxicity likely'
   else null
 
