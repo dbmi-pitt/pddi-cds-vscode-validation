@@ -206,8 +206,8 @@ define "Get Card 3 Label":
 
 
 define "Age > 65 years or Hx UGIB":
-   // "GI Bleeds Condition" is not null
-   // or
+   "GI Bleeds Condition" is not null
+   or
    AgeInYears() > 65
 
 define "GI Bleeds Condition":

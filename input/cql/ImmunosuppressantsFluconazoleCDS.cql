@@ -85,16 +85,15 @@ define "IV Fluconazoles Rx":
       return MR.medication.coding[0]
     )
 
-define "Fluconazoles Rx":
+
+define "Inclusion criteria":
+exists "Immunosuppressant Rx" 
+and 
+(
 exists "PO Fluconazoles Rx"
 or 
 exists "IV Fluconazoles Rx"
-
-define "Inclusion criteria":
-
-exists "Immunosuppressant Rx"
-and 
-exists "Fluconazoles Rx"
+)
 
 
 
@@ -208,11 +207,16 @@ define "Low dose IV Fluconazole with Immunosuppressant":
   )
  then true else false
 
-define "Age greater than 18 years with Immunosuppressant":
+define "Age greater than 18 years":
+ AgeInYears() > 18
+/*
+ and 
+exists "PO Fluconazoles Rx"
+and  
+exists "IV Fluconazoles Rx"
+*/
 
-exists "Inclusion Criteria"
- and
-AgeInYears() > 18
+ 
 
 
 
@@ -221,7 +225,7 @@ define "Recommendation":
       then 'No special precaution'
   else if ("High dose IV Fluconazole with Immunosuppressant" or "High dose PO Fluconazole with Immunosuppressant") 
       then 'Use only if benefit outweighs risk'
-  else if "Age greater than 18 years with Immunosuppressant" 
+  else if "Age greater than 18 years" 
       then 'Use only if benefit outweighs risk'
   else null
 
@@ -231,7 +235,8 @@ define "Rationale":
       then 'Increased risk of immunosuppressant toxicity unlikely'
   else if ("High dose IV Fluconazole with Immunosuppressant" or "High dose PO Fluconazole with Immunosuppressant") 
       then 'Increased risk of immunosuppressant toxicity likely'
-  else if "Age greater than 18 years with Immunosuppressant" 
+  else if "Age greater than 18 years" 
       then 'Increased risk of immunosuppressant toxicity likely'
   else null
+
 
