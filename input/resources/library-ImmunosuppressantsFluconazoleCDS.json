@@ -1,7 +1,7 @@
 {  
   "resourceType": "Library",
-  "id": "ImmunosuppressantFluconazoleCDS", 
-  "name": "ImmunosuppressantFluconazoleCDS",
+  "id": "ImmunosuppressantsFluconazoleCDS", 
+  "name": "ImmunosuppressantsFluconazoleCDS",
   "title": "Immunosupressants and Fluconazole example CDS Logic",
   "status": "active",
   "experimental": true,
@@ -15,7 +15,7 @@
   },
   "content": [
     {
-      "id": "ig-loader-ImmunosuppressantFluconazoleCDS.cql"
+      "id": "ig-loader-ImmunosuppressantsFluconazoleCDS.cql"
     }
   ]
 }

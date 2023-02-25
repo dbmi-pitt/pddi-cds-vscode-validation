@@ -1,11 +1,11 @@
-library ImmunosuppressantFluconazoleCDS version '0.1.0'
+library ImmunosuppressantsFluconazoleCDS version '0.1.0'
 
 using FHIR version '4.0.1'
 include FHIRHelpers version '4.0.1' called FHIRHelpers
 
 codesystem "RXNORM": 'http://www.nlm.nih.gov/research/umls/rxnorm'
 
-valueset "Immunosuppressant": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-immunosuppressant'
+valueset "Immunosuppressant": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-immunosuppressants'
 valueset "PO Fluconazoles": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-pofluconazoles'
 valueset "IV Fluconazoles": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-ivfluconazoles'
 
@@ -84,10 +84,20 @@ define "IV Fluconazoles Rx":
       where MR.authoredOn.value > (Today() - 100 days) // or, could be hard-coded e.g., > @2022-11-01 
       return MR.medication.coding[0]
     )
-define "Fluconazoles Rx"
+
+define "Fluconazoles Rx":
 exists "PO Fluconazoles Rx"
 or 
 exists "IV Fluconazoles Rx"
+
+define "Inclusion criteria":
+
+exists "Immunosuppressant Rx"
+and 
+exists "Fluconazoles Rx"
+
+
+
 
 define "Low dose PO Fluconazole with Immunosuppressant":
 if 
@@ -199,10 +209,9 @@ define "Low dose IV Fluconazole with Immunosuppressant":
  then true else false
 
 define "Age greater than 18 years with Immunosuppressant":
-exists "Immunosuppressant Rx"
- and 
- exists "Fluconazoles Rx"
- and 
+
+exists "Inclusion Criteria"
+ and
 AgeInYears() > 18
 
 

@@ -1,7 +1,7 @@
 <ValueSet xmlns="http://hl7.org/fhir">
                 <id value="valueset-immunosuppressants"/>
-                <url value="http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-immunosuppressant"/>
-                <name value="valueset-immunosuppressant"/>
+                <url value="http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-immunosuppressants"/>
+                <name value="valueset-immunosuppressants"/>
                 <version value="US 1.0"/>
                 <title value="Immunosuppressant Medications Value Set"/>
                 <status value="draft"/>
