@@ -1,18 +1,18 @@
 {
     "resourceType": "MedicationStatement",
-    "id": "patient-with-LFluO-everolimus",
+    "id": "patient-inpatient25-fentanyl",
     "status": "active",
     "medicationCodeableConcept": {
       "coding": [
         {
-          "display": "everolimus 7.5 MG Oral Tablet",
+          "display": "fentanyl 0.1 MG Sublingual Tablet",
           "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
-          "code": "1119400"
+          "code": "1053647"
         }
       ]
     },
     "subject": {
-      "reference": "Patient/patient-with-LFluO"
+      "reference": "Patient/patient-inpatient25"
     },
     "effectivePeriod": {
         "start": "2023-02-17T23:59:59+06:00",

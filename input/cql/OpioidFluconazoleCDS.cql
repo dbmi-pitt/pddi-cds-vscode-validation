@@ -9,9 +9,9 @@ codesystem "LOINC": 'http://loinc.org'
 
 valueset "Fentanyls": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-fentanyl'
 valueset "Oxycodones": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-oxycodone'
-valueset "Fluconazoles": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-fluconazole'
+valueset "Fluconazoles": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-fluconazoles'
 valueset "InpatientEncounters": 'http://terminology.hl7.org/ValueSet/v3-ActEncounterCode'
-valueset "eGFR":'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-eGFR'
+valueset "eGFR":'https://loinc.org/kb/users-guide/loinc-technical-briefs/choosing-the-correct-loinc-for-estimated-glomerular-filtration-rate/'
 
 
 parameter ContextPrescriptionStatements List<MedicationStatement>
@@ -92,29 +92,171 @@ define "Fluconazoles Rx":
 
 
 define "Inpatient Visit":
-  (
+ if (exists
   [Encounter: "InpatientEncounters"] I
     where (Today() - 100 days) < I.period.start.value
   )
+  then true else false
+
 
 define "Low eGFR":
   (
       [Observation: "eGFR"] EG
       where
-        (System.Quantity { 
-         value: (EG.value).value, unit: 'ml/min' 
-            } < 30 'ml/min' 
+        (System.Quantity {
+         value: (EG.value).value, unit: 'ml/min'
+            } <= 30 'ml/min'
     )
   )
 define "High eGFR":
   (
       [Observation: "eGFR"] EG
       where
-        (System.Quantity { 
-         value: (EG.value).value, unit: 'ml/min' 
-            } > 30 'ml/min' 
+        (System.Quantity {
+         value: (EG.value).value, unit: 'ml/min'
+            } > 30 'ml/min'
     )
   )
 
 
-    
+define "High dose oxycodone":
+  (
+    [MedicationStatement: "Oxycodones"] MS
+    where
+        (System.Quantity {
+              value: (MS.dosage[0].doseAndRate[0].dose).value *
+                ToDecimal(MS.dosage[0].timing.repeat.frequency), unit: 'mg/d'
+            } > 10 'mg/d'
+        )
+    )
+    union
+    (
+    [MedicationRequest: "Oxycodones"] MR
+    where
+      (System.Quantity {
+        value: (MR.dosageInstruction[0].doseAndRate[0].dose).value *
+           ToDecimal(MR.dosageInstruction[0].timing.repeat.frequency), unit: 'mg/d'
+            } > 10 'mg/d'
+      )
+    )
+
+define "Low dose oxycodone":
+  (
+    [MedicationStatement: "Oxycodones"] MS
+    where
+        (System.Quantity {
+              value: (MS.dosage[0].doseAndRate[0].dose).value *
+                ToDecimal(MS.dosage[0].timing.repeat.frequency), unit: 'mg/d'
+            } <= 10 'mg/d'
+        )
+    )
+    union
+    (
+    [MedicationRequest: "Oxycodones"] MR
+    where
+      (System.Quantity {
+        value: (MR.dosageInstruction[0].doseAndRate[0].dose).value *
+           ToDecimal(MR.dosageInstruction[0].timing.repeat.frequency), unit: 'mg/d'
+            } <= 10 'mg/d'
+      )
+    )
+
+define "High dose fluconazole":
+  (
+    [MedicationStatement: "Fluconazoles"] MS
+    where
+        (System.Quantity {
+              value: (MS.dosage[0].doseAndRate[0].dose).value *
+                ToDecimal(MS.dosage[0].timing.repeat.frequency), unit: 'mg/d'
+            } > 50 'mg/d'
+        )
+    )
+    union
+    (
+    [MedicationRequest: "Fluconazoles"] MR
+    where
+      (System.Quantity {
+        value: (MR.dosageInstruction[0].doseAndRate[0].dose).value *
+           ToDecimal(MR.dosageInstruction[0].timing.repeat.frequency), unit: 'mg/d'
+            } > 50 'mg/d'
+      )
+    )
+
+define "Low dose fluconazole":
+(
+    [MedicationStatement: "Fluconazoles"] MS
+    where
+        (System.Quantity {
+              value: (MS.dosage[0].doseAndRate[0].dose).value *
+                ToDecimal(MS.dosage[0].timing.repeat.frequency), unit: 'mg/d'
+            } <= 50 'mg/d'
+        )
+    )
+    union
+    (
+    [MedicationRequest: "Fluconazoles"] MR
+    where
+      (System.Quantity {
+        value: (MR.dosageInstruction[0].doseAndRate[0].dose).value *
+           ToDecimal(MR.dosageInstruction[0].timing.repeat.frequency), unit: 'mg/d'
+            } <= 50 'mg/d'
+      )
+    )
+
+
+
+define "Inclusion criteria":
+(exists "Oxycodone Rx" or exists "Fentanyl Rx")
+and
+ exists ("Fluconazoles Rx")
+
+// Next steps define alerts based on above defined criteria
+
+/*
+define "Inpatient":
+exists "Inpatient Visit"
+*/
+
+define "eGFR less than 30 ml/min":
+"Inclusion criteria" is not null
+and
+exists "Low eGFR"
+
+define "Fentanyl with low dose fluconazole":
+"Inclusion criteria" is not null
+and
+exists "High eGFR"
+and exists "Fentanyl Rx"
+and exists "Low dose fluconazole"
+
+define "Fentanyl with high dose fluconazole":
+"Inclusion criteria" is not null
+and
+exists "High eGFR"
+and exists "Fentanyl Rx"
+and exists "High dose fluconazole"
+
+define "Low dose oxycodone with fluconazole":
+"Inclusion criteria" is not null
+and
+exists "High eGFR"
+and exists "Fluconazoles Rx"
+and exists "Low dose oxycodone"
+
+define "High dose oxycodone with High dose fluconazole":
+"Inclusion criteria" is not null
+and
+exists "High eGFR"
+and exists "High dose oxycodone"
+and exists "High dose fluconazole"
+
+define "High dose oxycodone with low dose fluconazole":
+"Inclusion criteria" is not null
+and
+exists "High eGFR"
+and exists "High dose oxycodone"
+and exists "Low dose fluconazole"
+
+
+
+

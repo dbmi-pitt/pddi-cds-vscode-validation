@@ -1,7 +1,7 @@
 <ValueSet xmlns="http://hl7.org/fhir">
-             <id value="valueset-fluconazoles"/>
-            <url value="http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-fluconazoles"/>
-            <name value="valueset-fluconazoles"/>
+             <id value="valueset-fentanyl"/>
+            <url value="http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-fentanyl"/>
+            <name value="valueset-fentanyl"/>
             <version value="US 1.0"/>
             <title value="Fluconazole Medications Value Set"/>
             <status value="draft"/>
@@ -11,7 +11,7 @@
                  <name value="Richard Boyce boycerd@upmc.edu"/>
              </contact>
              <description
-                     value="Includes RxNorm codes for any form of Fluconazole medications."/>
+                     value="Includes RxNorm codes for any form of Fentanyl medications."/>
              <jurisdiction>
                 <coding>
                   <system value="urn:iso:std:iso:3166"/>

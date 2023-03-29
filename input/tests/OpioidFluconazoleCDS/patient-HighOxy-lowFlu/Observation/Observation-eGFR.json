@@ -1,0 +1,22 @@
+{
+    "resourceType": "Observation",
+    "id": "patient-HighOxy-lowFlu-eGFR",
+    "status": "final",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "98979-8",
+          "display": "GFR/1.73 sq M.predicted Creatinine-based formula (CKD-EPI 2021) (S/P/Bld) [Vol rate/Area]"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-HighOxy-lowFlu"
+    },
+    "valueQuantity": {
+      "value": 60,
+      "unit": "ml/min"
+    },
+    "effectiveDateTime": "2023-03-01T17:23:00Z"
+  }
