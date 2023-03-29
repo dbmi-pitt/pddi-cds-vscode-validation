@@ -1,0 +1,55 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <url value="http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-eGFR" />
+    <id value="Estimated-Glomerular-Filtration-Rate" />
+    <version value="1.0" />
+    <name value="Estimated-Glomerular-Filtration-Rate" />
+    <title value="eGFR Value Set" />
+    <status value="draft" />
+    <description value="ValueSet containing codes for eGFR observation." />
+    <jurisdiction>
+        <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="US"/>
+            <display value="United States of America"/>
+        </coding>
+    </jurisdiction>
+    <purpose value="Provide terminology for PDDI CDS FHIR resources" />
+    <compose>
+     <include>
+        <system value="http://loinc.org" />
+        <concept>
+          <code value="98979-8" />
+          <display value="GFR/1.73 sq M.predicted Creatinine-based formula (CKD-EPI 2021) (S/P/Bld) [Vol rate/Area]" />
+        </concept>
+        <concept>
+          <code value="98980-6" />
+          <display value="GFR/1.73 sq M.predicted Creatinine and Cystatin C-based formula (CKD-EPI 2021) (S/P/Bld) [Vol rate/Area]" />
+        </concept>
+        <concept>
+          <code value="50384-7" />
+          <display value="Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (Schwartz)" />
+        </concept>
+        <concept>
+          <code value="33914-3" />
+          <display value="Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum or Plasma by Creatinine-based formula (MDRD)" />
+        </concept>
+        <concept>
+          <code value="48642-3" />
+          <display value="Glomerular filtration rate/1.73 sq M.predicted among non-blacks [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (MDRD)" />
+        </concept>
+        <concept>
+          <code value="48643-1" />
+          <display value="Glomerular filtration rate/1.73 sq M.predicted among blacks [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (MDRD)" />
+        </concept>
+        <concept>
+          <code value="50044-7" />
+          <display value="Glomerular filtration rate/1.73 sq M.predicted among females [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (MDRD)" />
+        </concept>
+      </include>
+      <concept>
+          <code value="50210-4" />
+          <display value="Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood by Cystatin C-based formula" />
+        </concept>
+      </include>
+    </compose>
+</ValueSet>

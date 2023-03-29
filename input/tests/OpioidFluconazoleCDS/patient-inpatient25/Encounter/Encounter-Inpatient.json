@@ -1,0 +1,16 @@
+{
+    "resourceType": "Encounter",
+    "id": "patient-inpatient25-Inpatient",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "IMP"
+    },
+    "subject": {
+      "reference": "Patient/patient-inpatient25"
+    },
+    "period": {
+      "start": "2023-03-01T17:23:00Z",
+      "end": "2023-03-03T17:23:00Z"
+    }
+  }

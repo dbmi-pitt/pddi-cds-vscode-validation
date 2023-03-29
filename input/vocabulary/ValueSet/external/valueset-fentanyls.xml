@@ -1,0 +1,162 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+             <id value="valueset-fluconazoles"/>
+            <url value="http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-fluconazoles"/>
+            <name value="valueset-fluconazoles"/>
+            <version value="US 1.0"/>
+            <title value="Fluconazole Medications Value Set"/>
+            <status value="draft"/>
+            <date value="2018-06-20"/>
+            <publisher value="PDDI CDS"/>
+            <contact>
+                 <name value="Richard Boyce boycerd@upmc.edu"/>
+             </contact>
+             <description
+                     value="Includes RxNorm codes for any form of Fluconazole medications."/>
+             <jurisdiction>
+                <coding>
+                  <system value="urn:iso:std:iso:3166"/>
+                     <code value="US"/>
+                     <display value="United States of America"/>
+                 </coding>
+                </jurisdiction>
+            <purpose value="Provide terminology for PDDI CDS (Opioid + Fluconazole rule) FHIR resources"/>
+            <copyright value="Attribution CC BY"/>
+        <compose>
+         <include>
+            <system value="http://www.nlm.nih.gov/research/umls/rxnorm" />
+            <version value="02-Feb-2023" />
+            <concept>
+              <code value="1053647" />
+              <display value="fentanyl 0.1 MG Sublingual Tablet"/>
+            </concept>
+            <concept>
+              <code value="1053652" />
+              <display value="fentanyl 0.2 MG Sublingual Tablet"/>
+            </concept>
+            <concept>
+              <code value="1053655" />
+              <display value="fentanyl 0.3 MG Sublingual Tablet"/>
+            </concept>
+            <concept>
+              <code value="1053658" />
+              <display value="fentanyl 0.4 MG Sublingual Tablet"/>
+            </concept>
+            <concept>
+              <code value="1053661" />
+              <display value="fentanyl 0.6 MG Sublingual Tablet"/>
+            </concept>
+            <concept>
+              <code value="1053664" />
+              <display value="fentanyl 0.8 MG Sublingual Tablet"/>
+            </concept>
+            <concept>
+              <code value="1115573" />
+              <display value="fentanyl 0.1 MG/ACTUAT Metered Dose Nasal Spray"/>
+            </concept>
+            <concept>
+              <code value="1115577" />
+              <display value="fentanyl 0.4 MG/ACTUAT Metered Dose Nasal Spray"/>
+            </concept>
+            <concept>
+              <code value="1233687" />
+              <display value="fentanyl 0.004 MG/ML / ropivacaine hydrochloride 2 MG/ML Injectable Solution"/>
+            </concept>
+            <concept>
+              <code value="1237050" />
+              <display value="fentanyl 0.1 MG/ACTUAT Mucosal Spray"/>
+            </concept>
+            <concept>
+              <code value="1237057" />
+              <display value="fentanyl 0.2 MG/ACTUAT Mucosal Spray"/>
+            </concept>
+            <concept>
+              <code value="1237060" />
+              <display value="fentanyl 0.4 MG/ACTUAT Mucosal Spray"/>
+            </concept>
+            <concept>
+              <code value="1237064" />
+              <display value="fentanyl 0.6 MG/ACTUAT Mucosal Spray"/>
+            </concept>
+            <concept>
+              <code value="1237068" />
+              <display value="fentanyl 0.8 MG/ACTUAT Mucosal Spray"/>
+            </concept>
+            <concept>
+              <code value="1666831" />
+              <display value="80 ACTUAT fentanyl 0.04 MG/ACTUAT Transdermal System"/>
+            </concept>
+            <concept>
+              <code value="310293"  />
+              <display value="fentanyl 1.2 MG Oral Lozenge"/>
+            </concept>
+            <concept>
+              <code value="310294"  />
+              <display value="fentanyl 1.6 MG Oral Lozenge"/>
+            </concept>
+            <concept>
+              <code value="310295"  />
+              <display value="fentanyl 0.2 MG Oral Lozenge"/>
+            </concept>
+            <concept>
+              <code value="310296"  />
+              <display value="fentanyl 0.3 MG Oral Lozenge"/>
+            </concept>
+            <concept>
+              <code value="310297"  />
+              <display value="fentanyl 0.4 MG Oral Lozenge"/>
+            </concept>
+            <concept>
+              <code value="313992"  />
+              <display value="fentanyl 0.6 MG Oral Lozenge"/>
+            </concept>
+            <concept>
+              <code value="313993"  />
+              <display value="fentanyl 0.8 MG Oral Lozenge"/>
+            </concept>
+            <concept>
+              <code value="668363"  />
+              <display value="fentanyl 0.1 MG Buccal Tablet"/>
+            </concept>
+            <concept>
+              <code value="668364"  />
+              <display value="fentanyl 0.2 MG Buccal Tablet"/>
+            </concept>
+            <concept>
+              <code value="668365"  />
+              <display value="fentanyl 0.4 MG Buccal Tablet"/>
+            </concept>
+            <concept>
+              <code value="668366"  />
+              <display value="fentanyl 0.6 MG Buccal Tablet"/>
+            </concept>
+            <concept>
+              <code value="668367"  />
+              <display value="fentanyl 0.8 MG Buccal Tablet"/>
+            </concept>
+            <concept>
+              <code value="706898"  />
+              <display value="fentanyl 0.3 MG Buccal Tablet"/>
+            </concept>
+            <concept>
+              <code value="858087"  />
+              <display value="fentanyl 1.2 MG Buccal Film"/>
+            </concept>
+            <concept>
+              <code value="858092"  />
+              <display value="fentanyl 0.2 MG Buccal Film"/>
+            </concept>
+            <concept>
+              <code value="858095"  />
+              <display value="fentanyl 0.4 MG Buccal Film"/>
+            </concept>
+            <concept>
+              <code value="858098"  />
+              <display value="fentanyl 0.6 MG Buccal Film"/>
+            </concept>
+            <concept>
+              <code value="858101"  />
+              <display value="fentanyl 0.8 MG Buccal Film"/>
+            </concept>
+            </include>
+        </compose>
+      </ValueSet>

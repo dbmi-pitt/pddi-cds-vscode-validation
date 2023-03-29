@@ -1,0 +1,135 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+             <id value="valueset-fluconazoles"/>
+            <url value="http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-fluconazoles"/>
+            <name value="valueset-fluconazoles"/>
+            <version value="US 1.0"/>
+            <title value="Fluconazole Medications Value Set"/>
+            <status value="draft"/>
+            <date value="2018-06-20"/>
+            <publisher value="PDDI CDS"/>
+            <contact>
+                 <name value="Richard Boyce boycerd@upmc.edu"/>
+             </contact>
+             <description
+                     value="Includes RxNorm codes for any form of Fluconazole medications."/>
+             <jurisdiction>
+                <coding>
+                  <system value="urn:iso:std:iso:3166"/>
+                     <code value="US"/>
+                     <display value="United States of America"/>
+                 </coding>
+                </jurisdiction>
+            <purpose value="Provide terminology for PDDI CDS (Opioid + Fluconazole rule) FHIR resources"/>
+            <copyright value="Attribution CC BY"/>
+        <compose>
+         <include>
+            <system value="http://www.nlm.nih.gov/research/umls/rxnorm" />
+            <version value="02-Feb-2023" />
+            <concept>
+              <code value="1014599" />
+              <display value="acetaminophen 300 MG / oxycodone hydrochloride 10 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="1014615" />
+              <display value="acetaminophen 300 MG / oxycodone hydrochloride 5 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="1014632" />
+              <display value="acetaminophen 300 MG / oxycodone hydrochloride 7.5 MG Oral Tablet" />
+            </concept><concept>
+              <code value="1037259" />
+              <display value="acetaminophen 300 MG / oxycodone hydrochloride 2.5 MG Oral Tablet" />
+            </concept><concept>
+              <code value="1049214" />
+              <display value="acetaminophen 325 MG / oxycodone hydrochloride 10 MG Oral Tablet" />
+            </concept><concept>
+              <code value="1049221" />
+              <display value="acetaminophen 325 MG / oxycodone hydrochloride 5 MG Oral Tablet" />
+            </concept><concept>
+              <code value="1049225" />
+              <display value="acetaminophen 325 MG / oxycodone hydrochloride 7.5 MG Oral Tablet" />
+            </concept><concept>
+              <code value="1049233" />
+              <display value="acetaminophen 500 MG / oxycodone hydrochloride 7.5 MG Oral Tablet" />
+            </concept><concept>
+              <code value="1049251" />
+              <display value="acetaminophen 400 MG / oxycodone hydrochloride 10 MG Oral Tablet" />
+            </concept><concept>
+              <code value="1049260" />
+              <display value="acetaminophen 400 MG / oxycodone hydrochloride 5 MG Oral Tablet" />
+            </concept><concept>
+              <code value="1049267" />
+              <display value="acetaminophen 400 MG / oxycodone hydrochloride 7.5 MG Oral Tablet" />
+            </concept><concept>
+              <code value="1049270" />
+              <display value="acetaminophen 650 MG / oxycodone hydrochloride 10 MG Oral Tablet" />
+            </concept><concept>
+              <code value="1049580" />
+              <display value="acetaminophen 65 MG/ML / oxycodone hydrochloride 1 MG/ML Oral Solution" />
+            </concept><concept>
+              <code value="1049589" />
+              <display value="ibuprofen 400 MG / oxycodone hydrochloride 5 MG Oral Tablet" />
+            </concept><concept>
+              <code value="1049604" />
+              <display value="oxycodone hydrochloride 1 MG/ML Oral Solution" />
+            </concept><concept>
+              <code value="1049611" />
+              <display value="oxycodone hydrochloride 15 MG Oral Tablet" />
+            </concept><concept>
+              <code value="1049615" />
+              <display value="oxycodone hydrochloride 20 MG/ML Oral Solution" />
+            </concept><concept>
+              <code value="1049618" />
+              <display value="oxycodone hydrochloride 30 MG Oral Tablet" />
+            </concept><concept>
+              <code value="1049621" />
+              <display value="oxycodone hydrochloride 5 MG Oral Tablet" />
+            </concept><concept>
+              <code value="1049635" />
+              <display value="acetaminophen 325 MG / oxycodone hydrochloride 2.5 MG Oral Tablet" />
+            </concept><concept>
+              <code value="1049651" />
+              <display value="acetaminophen 500 MG / oxycodone hydrochloride 10 MG Oral Tablet" />
+            </concept><concept>
+              <code value="1049658" />
+              <display value="acetaminophen 500 MG / oxycodone hydrochloride 5 MG Oral Capsule" />
+            </concept><concept>
+              <code value="1049683" />
+              <display value="oxycodone hydrochloride 10 MG Oral Tablet" />
+            </concept><concept>
+              <code value="1049686" />
+              <display value="oxycodone hydrochloride 20 MG Oral Tablet" />
+            </concept><concept>
+              <code value="1049696" />
+              <display value="oxycodone hydrochloride 5 MG Oral Capsule" />
+            </concept><concept>
+              <code value="1049717" />
+              <display value="oxycodone hydrochloride 10 MG Oral Capsule" />
+            </concept><concept>
+              <code value="1049719" />
+              <display value="oxycodone hydrochloride 10 MG/ML Injectable Solution" />
+            </concept><concept>
+              <code value="1049720" />
+              <display value="oxycodone hydrochloride 10 MG/ML Oral Solution" />
+            </concept><concept>
+              <code value="1049721" />
+              <display value="oxycodone hydrochloride 20 MG Oral Capsule" />
+            </concept><concept>
+              <code value="1049727" />
+              <display value="oxycodone hydrochloride 5 MG Extended Release Oral Tablet" />
+            </concept><concept>
+              <code value="1113314" />
+              <display value="oxycodone hydrochloride 7.5 MG Oral Tablet" />
+            </concept><concept>
+              <code value="637540"  />
+              <display value="aspirin 325 MG / oxycodone hydrochloride 4.5 MG / oxycodone terephthalate 0.38 MG Oral Tablet" />
+            </concept><concept>
+              <code value="724614"  />
+              <display value="aspirin 325 MG / oxycodone hydrochloride 2.25 MG / oxycodone terephthalate 0.19 MG Oral Tablet" />
+            </concept><concept>
+              <code value="848768"  />
+              <display value="aspirin 325 MG / oxycodone hydrochloride 4.84 MG Oral Tablet" />
+            </concept>
+            </include>
+        </compose>
+      </ValueSet>

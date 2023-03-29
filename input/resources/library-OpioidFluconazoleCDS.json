@@ -1,0 +1,21 @@
+{
+  "resourceType": "Library",
+  "id": "OpioidFluconazoleCDS",
+  "name": "OpioidFluconazoleCDS",
+  "title": "Opioid and Fluconazole example CDS Logic",
+  "status": "active",
+  "experimental": true,
+  "type": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/codesystem-library-type.html",
+        "code": "logic-library"
+      }
+    ]
+  },
+  "content": [
+    {
+      "id": "ig-loader-OpioidFluconazoleCDS.cql"
+    }
+  ]
+}

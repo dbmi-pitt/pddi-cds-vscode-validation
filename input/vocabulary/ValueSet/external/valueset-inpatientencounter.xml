@@ -1,0 +1,34 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <url value="http://terminology.hl7.org/ValueSet/v3-ActEncounterCode" />
+    <id value="v3-ActEncounterCode" />
+    <version value="1.0" />
+    <name value="v3-ActEncounterCode" />
+    <title value="Inaptient Encounters Value Set" />
+    <status value="draft" />
+    <description value="ValueSet containing codes for Inaptient Encounters." />
+    <jurisdiction>
+        <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="US"/>
+            <display value="United States of America"/>
+        </coding>
+    </jurisdiction>
+    <purpose value="Provide terminology for PDDI CDS FHIR resources" />
+    <compose>
+     <include>
+        <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
+        <concept>
+          <code value="IMP" />
+          <display value="inpatient encounter" />
+        </concept>
+        <concept>
+          <code value="ACUTE" />
+          <display value="inpatient acute" />
+        </concept>
+        <concept>
+          <code value="NONAC" />
+          <display value="inpatient non-acute" />
+        </concept>
+      </include>
+    </compose>
+</ValueSet>
