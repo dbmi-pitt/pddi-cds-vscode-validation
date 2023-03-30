@@ -10,12 +10,11 @@ codesystem "LOINC": 'http://loinc.org'
 valueset "Fentanyls": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-fentanyl'
 valueset "Oxycodones": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-oxycodone'
 valueset "Fluconazoles": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-fluconazoles'
-valueset "InpatientEncounters": 'http://terminology.hl7.org/ValueSet/v3-ActEncounterCode'
 valueset "eGFR":'https://loinc.org/kb/users-guide/loinc-technical-briefs/choosing-the-correct-loinc-for-estimated-glomerular-filtration-rate/'
 
-
-parameter ContextPrescriptionStatements List<MedicationStatement>
-parameter ContextPrescriptionRequests List<MedicationRequest>
+code "Inpatient Encounter": 'IMP' from "v3-ActCode" display 'Inpatient Encounter'
+code "Inpatient Acute": 'ACUTE' from "v3-ActCode" display 'Inpatient Acute'
+code "Inpatient Non-Acute": 'NONAC' from "v3-ActCode" display 'Inpatient Non-Acute'
 
 context Patient
 
@@ -90,13 +89,23 @@ define "Fluconazoles Rx":
       return MR.medication.coding[0]
     )
 
-
+// Refer to class when looking at observation, and lists codes in above
 define "Inpatient Visit":
- if (exists
-  [Encounter: "InpatientEncounters"] I
-    where (Today() - 100 days) < I.period.start.value
+ (
+  [Encounter: class ~ "Inpatient Encounter"] IE
+    where (Today() - 100 days) < IE.period.start.value
   )
-  then true else false
+  union
+   (
+  [Encounter: class ~ "Inpatient Acute"] IA
+    where (Today() - 100 days) < IA.period.start.value
+  )
+  union
+   (
+  [Encounter: class ~ "Inpatient Non-Acute"] INA
+    where (Today() - 100 days) < INA.period.start.value
+  )
+
 
 
 define "Low eGFR":
@@ -212,10 +221,9 @@ and
 
 // Next steps define alerts based on above defined criteria
 
-/*
+
 define "Inpatient":
 exists "Inpatient Visit"
-*/
 
 define "eGFR less than 30 ml/min":
 "Inclusion criteria" is not null

@@ -1,6 +1,6 @@
 {
     "resourceType": "Encounter",
-    "id": "patient-inpatient25-Inpatient",
+    "id": "patient-inpatient-Inpatient",
     "status": "finished",
     "class": {
       "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
@@ -8,10 +8,10 @@
       "display": "inpatient encounter"
     },
     "subject": {
-      "reference": "Patient/patient-inpatient25"
+      "reference": "Patient/patient-inpatient"
     },
     "period": {
-      "start": "2023-03-01T17:23:00Z",
-      "end": "2023-03-03T17:23:00Z"
+      "start": "2023-03-29T17:23:00Z",
+      "end": "2023-03-30T17:23:00Z"
     }
   }

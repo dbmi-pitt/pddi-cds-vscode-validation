@@ -19,15 +19,15 @@
         <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
         <concept>
           <code value="IMP" />
-          <display value="inpatient encounter" />
+          <display value="Inpatient Encounter" />
         </concept>
         <concept>
           <code value="ACUTE" />
-          <display value="inpatient acute" />
+          <display value="Inpatient Acute" />
         </concept>
         <concept>
           <code value="NONAC" />
-          <display value="inpatient non-acute" />
+          <display value="Inpatient Non-Acute" />
         </concept>
       </include>
     </compose>

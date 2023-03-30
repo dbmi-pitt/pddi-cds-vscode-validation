@@ -1,6 +1,6 @@
 {
     "resourceType": "MedicationStatement",
-    "id": "patient-inpatient25-fluconazole",
+    "id": "patient-inpatient-fluconazole",
     "status": "active",
     "medicationCodeableConcept": {
       "coding": [
@@ -12,7 +12,7 @@
       ]
     },
     "subject": {
-      "reference": "Patient/patient-inpatient25"
+      "reference": "Patient/patient-inpatient"
     },
     "effectivePeriod": {
         "start": "2023-02-17T23:59:59+06:00",

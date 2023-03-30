@@ -1,6 +1,6 @@
 {
     "resourceType": "Patient",
-          "id": "patient-inpatient25",
+          "id": "patient-inpatient",
           "name": [
             {
               "use": "official",
@@ -14,4 +14,3 @@
           "gender": "female",
           "birthDate": "1952-01-07"
         }
-        
