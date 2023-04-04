@@ -1,0 +1,62 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="valueset-opthalmictimololsolution"/>
+                <url value="http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-opthalmictimololsolution"/>
+                <name value="valueset-opthalmictimololsolution"/>
+                <version value="US 1.0"/>
+                <title value="Opthalmic Timolol Solution Medications Value Set"/>
+                <status value="draft"/>
+                <date value="2018-06-20"/>
+                <publisher value="PDDI CDS"/>
+                <contact>
+                    <name value="Richard Boyce boycerd@upmc.edu"/>
+                </contact>
+                <description
+                        value="Includes RxNorm codes for any form of Opthalmic Timolol Solution medications."/>
+                <jurisdiction>
+                    <coding>
+                        <system value="urn:iso:std:iso:3166"/>
+                        <code value="US"/>
+                        <display value="United States of America"/>
+                    </coding>
+                </jurisdiction>
+                <purpose value="Provide terminology for PDDI CDS (Clonidine + Beta Blocker rule) FHIR resources"/>
+                <copyright value="Attribution CC BY"/>
+                <compose>
+                    <include>
+                        <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                        <version value="04-Jun-2018"/>
+                        <concept>
+                            <code value="247355" />
+                            <display value="pilocarpine 20 MG/ML / timolol 5 MG/ML Ophthalmic Solution" />
+                        </concept>
+                        <concept>
+                            <code value="247356" />
+                            <display value="pilocarpine 40 MG/ML / timolol 5 MG/ML Ophthalmic Solution" />
+                        </concept>
+                         <concept>
+                            <code value="248790" />
+                            <display value="pilocarpine 10 MG/ML / timolol 5 MG/ML Ophthalmic Solution" />
+                        </concept>
+                         <concept>
+                            <code value="249477" />
+                            <display value="pilocarpine 25 MG/ML / timolol 5 MG/ML Ophthalmic Solution" />
+                        </concept>
+                         <concept>
+                            <code value="250702" />
+                            <display value="timolol 1 MG/ML Ophthalmic Solution" />
+                        </concept>
+                         <concept>
+                            <code value="388054" />
+                            <display value="latanoprost 0.05 MG/ML / timolol 5 MG/ML Ophthalmic Solution" />
+                        </concept>
+                         <concept>
+                            <code value="425626" />
+                            <display value="pilocarpine 25 MG/ML / timolol 7 MG/ML Ophthalmic Solution" />
+                        </concept>
+                         <concept>
+                            <code value="861635" />
+                            <display value="brimonidine tartrate 2 MG/ML / timolol 5 MG/ML Ophthalmic Solution" />
+                        </concept>
+                    </include>
+                </compose>
+            </ValueSet>

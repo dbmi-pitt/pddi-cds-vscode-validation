@@ -1,0 +1,66 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="valueset-alphablockingagent"/>
+                <url value="http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-alphablockingagent"/>
+                <name value="valueset-alphablockingagent"/>
+                <version value="US 1.0"/>
+                <title value="Alpha-blocking Medications Value Set"/>
+                <status value="draft"/>
+                <date value="2018-06-20"/>
+                <publisher value="PDDI CDS"/>
+                <contact>
+                    <name value="Richard Boyce boycerd@upmc.edu"/>
+                </contact>
+                <description
+                        value="Includes RxNorm codes for any form of Alpha-blocking medications."/>
+                <jurisdiction>
+                    <coding>
+                        <system value="urn:iso:std:iso:3166"/>
+                        <code value="US"/>
+                        <display value="United States of America"/>
+                    </coding>
+                </jurisdiction>
+                <purpose value="Provide terminology for PDDI CDS (Clonidine + Beta Blocker rule) FHIR resources"/>
+                <copyright value="Attribution CC BY"/>
+                <compose>
+                    <include>
+                        <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                        <version value="04-Jun-2018"/>
+                        <concept>
+                            <code value="2479563" />
+                            <display value="labetalol hydrochloride 1 MG/ML" />
+                        </concept>
+                        <concept>
+                            <code value="315575" />
+                            <display value="carvedilol 12.5 MG" />
+                        </concept>
+                        <concept>
+                            <code value="315576" />
+                            <display value="carvedilol 25 MG" />
+                        </concept>
+                        <concept>
+                            <code value="315577" />
+                            <display value="carvedilol 6.25 MG" />
+                        </concept>
+                        <concept>
+                            <code value="686923" />
+                            <display value="carvedilol 3.125 MG" />
+                        </concept>
+                        <concept>
+                            <code value="896757" />
+                            <display value="labetalol hydrochloride 100 MG" />
+                        </concept>
+                        <concept>
+                            <code value="896761" />
+                            <display value="labetalol hydrochloride 200 MG" />
+                        </concept>
+                        <concept>
+                            <code value="896765" />
+                            <display value="labetalol hydrochloride 300 MG" />
+                        </concept>
+                        <concept>
+                            <code value="896770" />
+                            <display value="labetalol hydrochloride 5 MG/ML" />
+                        </concept>
+                    </include>
+                </compose>
+            </ValueSet>

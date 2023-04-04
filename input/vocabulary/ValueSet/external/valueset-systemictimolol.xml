@@ -1,0 +1,70 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="valueset-systemictimolol"/>
+                <url value="http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-systemictimolol"/>
+                <name value="valueset-systemictimolol"/>
+                <version value="US 1.0"/>
+                <title value="Systemic Timolol Medications Value Set"/>
+                <status value="draft"/>
+                <date value="2018-06-20"/>
+                <publisher value="PDDI CDS"/>
+                <contact>
+                    <name value="Richard Boyce boycerd@upmc.edu"/>
+                </contact>
+                <description
+                        value="Includes RxNorm codes for any form of Systemic Timolol medications."/>
+                <jurisdiction>
+                    <coding>
+                        <system value="urn:iso:std:iso:3166"/>
+                        <code value="US"/>
+                        <display value="United States of America"/>
+                    </coding>
+                </jurisdiction>
+                <purpose value="Provide terminology for PDDI CDS (Clonidine + Beta Blocker rule) FHIR resources"/>
+                <copyright value="Attribution CC BY"/>
+                <compose>
+                    <include>
+                        <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                        <version value="04-Jun-2018"/>
+                         <concept>
+                            <code value="198284" />
+                            <display value="timolol 10 MG Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="198285" />
+                            <display value="timolol 20 MG Oral Tablet" />
+                        </concept>
+                         <concept>
+                            <code value="198286" />
+                            <display value="timolol 5 MG Oral Tablet" />
+                        </concept>
+                         <concept>
+                            <code value="374135" />
+                            <display value="timolol Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="201340" />
+                            <display value="timolol 10 MG Oral Tablet [Blocadren]" />
+                        </concept>
+                         <concept>
+                            <code value="250543" />
+                            <display value="bendroflumethiazide 2.5 MG / timolol 10 MG Oral Tablet" />
+                        </concept>
+                         <concept>
+                            <code value="250544" />
+                            <display value="bendroflumethiazide 5 MG / timolol 20 MG Oral Tablet" />
+                        </concept>
+                         <concept>
+                            <code value="310811" />
+                            <display value="hydrochlorothiazide 25 MG / timolol 10 MG Oral Tablet" />
+                        </concept>
+                         <concept>
+                            <code value="432897" />
+                            <display value="amiloride 5 MG / hydrochlorothiazide 50 MG / timolol 20 MG Oral Tablet" />
+                        </concept>
+                         <concept>
+                            <code value="977949" />
+                            <display value="amiloride hydrochloride 2.5 MG / hydrochlorothiazide 25 MG / timolol maleate 10 MG Oral Tablet" />
+                        </concept>                                                                                                                        
+                    </include>
+                </compose>
+            </ValueSet>

@@ -1,0 +1,182 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="valueset-selectivebetablocker"/>
+                <url value="http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-selectivebetablocker"/>
+                <name value="valueset-selectivebetablocker"/>
+                <version value="US 1.0"/>
+                <title value="Selective Beta Blockers Medications Value Set"/>
+                <status value="draft"/>
+                <date value="2018-06-20"/>
+                <publisher value="PDDI CDS"/>
+                <contact>
+                    <name value="Richard Boyce boycerd@upmc.edu"/>
+                </contact>
+                <description
+                        value="Includes RxNorm codes for any form of Selective Beta Blocker medications."/>
+                <jurisdiction>
+                    <coding>
+                        <system value="urn:iso:std:iso:3166"/>
+                        <code value="US"/>
+                        <display value="United States of America"/>
+                    </coding>
+                </jurisdiction>
+                <purpose value="Provide terminology for PDDI CDS (Clonidine + Beta Blocker rule) FHIR resources"/>
+                <copyright value="Attribution CC BY"/>
+                <compose>
+                    <include>
+                        <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                        <version value="04-Jun-2018"/>
+                         <concept>
+                            <code value="1297752" />
+                            <display value="betaxolol hydrochloride 10 MG" />
+                        </concept>
+                        <concept>
+                            <code value="1297756" />
+                            <display value="betaxolol hydrochloride 20 MG" />
+                        </concept>
+                        <concept>
+                            <code value="1370474" />
+                            <display value="metoprolol succinate 50 MG" />
+                        </concept>
+                        <concept>
+                            <code value="1370483" />
+                            <display value="metoprolol succinate 100 MG" />
+                        </concept>
+                        <concept>
+                            <code value="1370489" />
+                            <display value="metoprolol succinate 25 MG" />
+                        </concept>
+                        <concept>
+                            <code value="1370500" />
+                            <display value="metoprolol succinate 200 MG" />
+                        </concept>
+                        <concept>
+                            <code value="1606346" />
+                            <display value="metoprolol tartrate 37.5 MG" />
+                        </concept>
+                        <concept>
+                            <code value="1606348" />
+                            <display value="metoprolol tartrate 75 MG" />
+                        </concept>
+                        <concept>
+                            <code value="315435" />
+                            <display value="atenolol 0.5 MG/ML" />
+                        </concept>
+                        <concept>
+                            <code value="315436" />
+                            <display value="atenolol 100 MG" />
+                        </concept>
+                        <concept>
+                            <code value="315437" />
+                            <display value="atenolol 25 MG" />
+                        </concept>
+                        <concept>
+                            <code value="315438" />
+                            <display value="atenolol 50 MG" />
+                        </concept>
+                        <concept>
+                            <code value="329586" />
+                            <display value="betaxolol 2.5 MG/ML" />
+                        </concept>
+                        <concept>
+                            <code value="329587" />
+                            <display value="betaxolol 5 MG/ML" />
+                        </concept>
+                        <concept>
+                            <code value="331133" />
+                            <display value="atenolol 5 MG/ML" />
+                        </concept>
+                        <concept>
+                            <code value="393307" />
+                            <display value="nebivolol 5 MG" />
+                        </concept>
+                        <concept>
+                            <code value="751611" />
+                            <display value="nebivolol 10 MG" />
+                        </concept>
+                        <concept>
+                            <code value="751617" />
+                            <display value="nebivolol 2.5 MG" />
+                        </concept>
+                        <concept>
+                            <code value="827072" />
+                            <display value="nebivolol 20 MG" />
+                        </concept>
+                        <concept>
+                            <code value="854900" />
+                            <display value="bisoprolol fumarate 10 MG" />
+                        </concept>
+                        <concept>
+                            <code value="854904" />
+                            <display value="bisoprolol fumarate 5 MG" />
+                        </concept>
+                        <concept>
+                            <code value="854915" />
+                            <display value="bisoprolol fumarate 2.5 MG" />
+                        </concept>
+                        <concept>
+                            <code value="865153" />
+                            <display value="bisoprolol fumarate 1.25 MG" />
+                        </concept>
+                        <concept>
+                            <code value="865156" />
+                            <display value="bisoprolol fumarate 3.75 MG" />
+                        </concept>
+                        <concept>
+                            <code value="865158" />
+                            <display value="bisoprolol fumarate 7.5 MG" />
+                        </concept>
+                        <concept>
+                            <code value="866411" />
+                            <display value="metoprolol tartrate 100 MG" />
+                        </concept>
+                        <concept>
+                            <code value="866418" />
+                            <display value="metoprolol tartrate 200 MG" />
+                        </concept>
+                        <concept>
+                            <code value="866426" />
+                            <display value="metoprolol tartrate 25 MG" />
+                        </concept>
+                        <concept>
+                            <code value="866435" />
+                            <display value="metoprolol tartrate 50 MG" />
+                        </concept>
+                        <concept>
+                            <code value="866507" />
+                            <display value="metoprolol tartrate 1 MG/ML" />
+                        </concept>
+                        <concept>
+                            <code value="979427" />
+                            <display value="esmolol hydrochloride 10 MG/ML" />
+                        </concept>
+                        <concept>
+                            <code value="979431" />
+                            <display value="esmolol hydrochloride 20 MG/ML" />
+                        </concept>
+                        <concept>
+                            <code value="979435" />
+                            <display value="esmolol hydrochloride 250 MG/ML" />
+                        </concept>
+                        <concept>
+                            <code value="998685" />
+                            <display value="acebutolol 400 MG Oral Capsule" />
+                        </concept>
+                        <concept>
+                            <code value="998689" />
+                            <display value="acebutolol 200 MG Oral Capsule" />
+                        </concept>
+                        <concept>
+                            <code value="998693" />
+                            <display value="acebutolol 100 MG Oral Capsule" />
+                        </concept>
+                        <concept>
+                            <code value="998694" />
+                            <display value="acebutolol 200 MG / hydrochlorothiazide 12.5 MG Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="998695" />
+                            <display value="acebutolol 400 MG Oral Tablet" />
+                        </concept>                        
+                    </include>
+                </compose>
+            </ValueSet>

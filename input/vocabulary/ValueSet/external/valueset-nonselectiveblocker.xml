@@ -1,0 +1,210 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="valueset-nonselectiveblocker"/>
+                <url value="http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-nonselectiveblocker"/>
+                <name value="valueset-nonselectiveblocker"/>
+                <version value="US 1.0"/>
+                <title value="Non-selective Beta Blocker Medications Value Set"/>
+                <status value="draft"/>
+                <date value="2018-06-20"/>
+                <publisher value="PDDI CDS"/>
+                <contact>
+                    <name value="Richard Boyce boycerd@upmc.edu"/>
+                </contact>
+                <description
+                        value="This set of values contains Non Selective Beta Blockers medications."/>
+                <jurisdiction>
+                    <coding>
+                        <system value="urn:iso:std:iso:3166"/>
+                        <code value="US"/>
+                        <display value="United States of America"/>
+                    </coding>
+                </jurisdiction>
+                <purpose value="Provide terminology for PDDI CDS (Clonidine + Beta Blocker rule) FHIR resources"/>
+                <copyright value="Attribution CC BY"/>
+                <compose>
+                    <include>
+                        <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                        <version value="04-Jun-2018"/>
+                         <concept>
+                            <code value="1150832" />
+                            <display value="levobunolol hydrochloride 2.5 MG/ML Ophthalmic Solution" />
+                        </concept>
+                        <concept>
+                            <code value="1150836" />
+                            <display value="levobunolol hydrochloride 5 MG/ML Ophthalmic Solution" />
+                        </concept>
+                        <concept>
+                            <code value="1191185" />
+                            <display value="penbutolol sulfate 20 MG Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="1495058" />
+                            <display value="propranolol hydrochloride 4.28 MG/ML Oral Solution" />
+                        </concept>
+                        <concept>
+                            <code value="1593725" />
+                            <display value="sotalol hydrochloride 5 MG/ML Oral Solution" />
+                        </concept>
+                        <concept>
+                            <code value="198000" />
+                            <display value="bendroflumethiazide 5 MG / nadolol 40 MG Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="198001" />
+                            <display value="bendroflumethiazide 5 MG / nadolol 80 MG Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="198006" />
+                            <display value="nadolol 20 MG Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="198007" />
+                            <display value="nadolol 40 MG Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="198008" />
+                            <display value="nadolol 80 MG Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="198104" />
+                            <display value="pindolol 10 MG Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="198105" />
+                            <display value="pindolol 5 MG Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="198284" />
+                            <display value="timolol 10 MG Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="198285" />
+                            <display value="timolol 20 MG Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="198286" />
+                            <display value="timolol 5 MG Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="199277" />
+                            <display value="pindolol 15 MG Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="199717" />
+                            <display value="clopamide 5 MG / pindolol 10 MG Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="245854" />
+                            <display value="hydrochlorothiazide 25 MG / pindolol 10 MG Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="245855" />
+                            <display value="hydrochlorothiazide 50 MG / pindolol 10 MG Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="250543" />
+                            <display value="bendroflumethiazide 2.5 MG / timolol 10 MG Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="250544" />
+                            <display value="bendroflumethiazide 5 MG / timolol 20 MG Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="310811" />
+                            <display value="hydrochlorothiazide 25 MG / timolol 10 MG Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="432897" />
+                            <display value="amiloride 5 MG / hydrochlorothiazide 50 MG / timolol 20 MG Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="856422" />
+                            <display value="hydrochlorothiazide 25 MG / propranolol hydrochloride 40 MG Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="856429" />
+                            <display value="hydrochlorothiazide 25 MG / propranolol hydrochloride 80 MG Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="856443" />
+                            <display value="1 ML propranolol hydrochloride 1 MG/ML Injection" />
+                        </concept>
+                        <concept>
+                            <code value="856448" />
+                            <display value="propranolol hydrochloride 10 MG Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="856457" />
+                            <display value="propranolol hydrochloride 20 MG Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="856460" />
+                            <display value="24 HR propranolol hydrochloride 120 MG Extended Release Oral Capsule" />
+                        </concept>
+                        <concept>
+                            <code value="856481" />
+                            <display value="24 HR propranolol hydrochloride 160 MG Extended Release Oral Capsule" />
+                        </concept>
+                        <concept>
+                            <code value="856519" />
+                            <display value="propranolol hydrochloride 40 MG Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="856535" />
+                            <display value="24 HR propranolol hydrochloride 60 MG Extended Release Oral Capsule" />
+                        </concept>
+                        <concept>
+                            <code value="856556" />
+                            <display value="propranolol hydrochloride 60 MG Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="856569" />
+                            <display value="24 HR propranolol hydrochloride 80 MG Extended Release Oral Capsule" />
+                        </concept>
+                        <concept>
+                            <code value="856578" />
+                            <display value="propranolol hydrochloride 80 MG Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="856713" />
+                            <display value="propranolol hydrochloride 160 MG Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="856724" />
+                            <display value="propranolol hydrochloride 4 MG/ML Oral Solution" />
+                        </concept>
+                        <concept>
+                            <code value="856733" />
+                            <display value="propranolol hydrochloride 8 MG/ML Oral Solution" />
+                        </concept>
+                        <concept>
+                            <code value="904561" />
+                            <display value="sotalol hydrochloride 100 MG Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="904589" />
+                            <display value="sotalol hydrochloride 240 MG Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="904630" />
+                            <display value="10 ML sotalol hydrochloride 15 MG/ML Injection" />
+                        </concept>
+                        <concept>
+                            <code value="977949" />
+                            <display value="amiloride hydrochloride 2.5 MG / hydrochlorothiazide 25 MG / timolol maleate 10 MG Oral Tablet" />
+                        </concept>
+                         <concept>
+                            <code value="978573" />
+                            <display value="carteolol hydrochloride 10 MG/ML Ophthalmic Solution" />
+                        </concept> 
+                        <concept>
+                            <code value="978577" />
+                            <display value="carteolol hydrochloride 2.5 MG Oral Tablet" />
+                        </concept> 
+                        <concept>
+                            <code value="978581" />
+                            <display value="carteolol hydrochloride 5 MG Oral Tablet" />
+                        </concept> 
+                    </include>
+                </compose>
+            </ValueSet>

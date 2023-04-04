@@ -1,0 +1,46 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="valueset-injectableclonidine"/>
+                <url value="http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-injectableclonidine"/>
+                <name value="valueset-injectableclonidine"/>
+                <version value="US 1.0"/>
+                <title value="Injectable Clonidine Medications Value Set"/>
+                <status value="draft"/>
+                <date value="2018-06-20"/>
+                <publisher value="PDDI CDS"/>
+                <contact>
+                    <name value="Richard Boyce boycerd@upmc.edu"/>
+                </contact>
+                <description
+                        value="Includes RxNorm codes for any form of Injectable Clonidine medications."/>
+                <jurisdiction>
+                    <coding>
+                        <system value="urn:iso:std:iso:3166"/>
+                        <code value="US"/>
+                        <display value="United States of America"/>
+                    </coding>
+                </jurisdiction>
+                <purpose value="Provide terminology for PDDI CDS (Clonidine + Beta Blocker rule) FHIR resources"/>
+                <copyright value="Attribution CC BY"/>
+                <compose>
+                    <include>
+                        <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                        <version value="04-Jun-2018"/>
+                        <concept>
+                            <code value="884220" />
+                            <display value="clonidine hydrochloride 0.1 MG/ML" />
+                        </concept>
+                        <concept>
+                            <code value="884221" />
+                            <display value="10 ML clonidine hydrochloride 0.1 MG/ML Injection" />
+                        </concept>
+                        <concept>
+                            <code value="884224" />
+                            <display value="clonidine hydrochloride 0.5 MG/ML" />
+                        </concept>
+                        <concept>
+                            <code value="884225" />
+                            <display value="10 ML clonidine hydrochloride 0.5 MG/ML Injection" />
+                        </concept>
+                    </include>
+                </compose>
+            </ValueSet>

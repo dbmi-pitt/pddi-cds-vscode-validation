@@ -1,0 +1,98 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="valueset-oralclonidine"/>
+                <url value="http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-oralclonidine"/>
+                <name value="valueset-oralclonidine"/>
+                <version value="US 1.0"/>
+                <title value="Oral Clonidine Medications Value Set"/>
+                <status value="draft"/>
+                <date value="2018-06-20"/>
+                <publisher value="PDDI CDS"/>
+                <contact>
+                    <name value="Richard Boyce boycerd@upmc.edu"/>
+                </contact>
+                <description
+                        value="Includes RxNorm codes for any form of Oral Clonidine medications."/>
+                <jurisdiction>
+                    <coding>
+                        <system value="urn:iso:std:iso:3166"/>
+                        <code value="US"/>
+                        <display value="United States of America"/>
+                    </coding>
+                </jurisdiction>
+                <purpose value="Provide terminology for PDDI CDS (Clonidine + Beta Blocker rule) FHIR resources"/>
+                <copyright value="Attribution CC BY"/>
+                <compose>
+                    <include>
+                        <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                        <version value="04-Jun-2018"/>
+                         <concept>
+                            <code value="1013930" />
+                            <display value="12 HR clonidine hydrochloride 0.1 MG Extended Release Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="1013937" />
+                            <display value="12 HR clonidine hydrochloride 0.2 MG Extended Release Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="1233708" />
+                            <display value="clonidine hydrochloride 0.15 MG" />
+                        </concept>
+                        <concept>
+                            <code value="1233709" />
+                            <display value="clonidine hydrochloride 0.15 MG Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="884172" />
+                            <display value="clonidine hydrochloride 0.1 MG" />
+                        </concept>
+                        <concept>
+                            <code value="884173" />
+                            <display value="clonidine hydrochloride 0.1 MG Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="884184" />
+                            <display value="clonidine hydrochloride 0.2 MG" />
+                        </concept>
+                        <concept>
+                            <code value="884185" />
+                            <display value="clonidine hydrochloride 0.2 MG Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="884188" />
+                            <display value="clonidine hydrochloride 0.3 MG" />
+                        </concept>
+                        <concept>
+                            <code value="884189" />
+                            <display value="clonidine hydrochloride 0.3 MG Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="884220" />
+                            <display value="clonidine hydrochloride 0.1 MG/ML" />
+                        </concept>
+                        <concept>
+                            <code value="885878" />
+                            <display value="24 HR clonidine 0.09 MG/ML Extended Release Suspension" />
+                        </concept>
+                        <concept>
+                            <code value="885880" />
+                            <display value="24 HR clonidine 0.17 MG Extended Release Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="892790" />
+                            <display value="clonidine hydrochloride 0.025 MG" />
+                        </concept>
+                        <concept>
+                            <code value="892791" />
+                            <display value="clonidine hydrochloride 0.025 MG Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="892794" />
+                            <display value="clonidine hydrochloride 0.25 MG" />
+                        </concept>
+                        <concept>
+                            <code value="892795" />
+                            <display value="clonidine hydrochloride 0.25 MG Extended Release Oral Capsule" />
+                        </concept>                        
+                    </include>
+                </compose>
+            </ValueSet>

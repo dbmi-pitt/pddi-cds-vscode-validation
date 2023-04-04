@@ -1,0 +1,38 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="valueset-opthalmictimololgel"/>
+                <url value="http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-opthalmictimololgel"/>
+                <name value="valueset-opthalmictimololgel"/>
+                <version value="US 1.0"/>
+                <title value="Opthalamic Timolol Gel Medications Value Set"/>
+                <status value="draft"/>
+                <date value="2018-06-20"/>
+                <publisher value="PDDI CDS"/>
+                <contact>
+                    <name value="Richard Boyce boycerd@upmc.edu"/>
+                </contact>
+                <description
+                        value="Includes RxNorm codes for any form of Opthalamic Timolol Gel medications."/>
+                <jurisdiction>
+                    <coding>
+                        <system value="urn:iso:std:iso:3166"/>
+                        <code value="US"/>
+                        <display value="United States of America"/>
+                    </coding>
+                </jurisdiction>
+                <purpose value="Provide terminology for PDDI CDS (Clonidine + Beta Blocker rule) FHIR resources"/>
+                <copyright value="Attribution CC BY"/>
+                <compose>
+                    <include>
+                        <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                        <version value="04-Jun-2018"/>
+                         <concept>
+                            <code value="313407" />
+                            <display value="timolol 0.0025 MG/MG Ophthalmic Gel" />
+                        </concept>
+                        <concept>
+                            <code value="313408" />
+                            <display value="timolol 0.005 MG/MG Ophthalmic Gel" />
+                        </concept>
+                    </include>
+                </compose>
+            </ValueSet>
