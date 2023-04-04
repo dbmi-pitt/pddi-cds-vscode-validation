@@ -266,6 +266,19 @@ and exists "High dose oxycodone"
 and exists "Low dose fluconazole"
 
 
+define "Recommendation":
+if ("Inpatient" or "Fentanyl with low dose fluconazole" or "Low dose oxycodone with fluconazole" or "High dose oxycodone with low dose fluconazole")
+      then ' No special precaution'
+  else if ("eGFR less than 30 ml/min" or "Fentanyl with high dose fluconazole" or "High dose oxycodone with High dose fluconazole")
+      then ' Use only if benefit outweighs risk'
+  else null
+
+define "Rationale":
+if ("Inpatient" or "Fentanyl with low dose fluconazole" or "Low dose oxycodone with fluconazole" or "High dose oxycodone with low dose fluconazole")
+      then ' CNS depression unlikely'
+  else if ("eGFR less than 30 ml/min" or "Fentanyl with high dose fluconazole" or "High dose oxycodone with High dose fluconazole")
+      then ' CNS depression likely'
+  else null
 
 
 
