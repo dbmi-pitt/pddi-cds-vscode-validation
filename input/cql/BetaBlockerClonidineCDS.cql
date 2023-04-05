@@ -57,7 +57,7 @@ define "Oral Clonidine Rx":
       where MR.authoredOn.value > (Today() - 100 days) and MR.status = 'stopped' // or, could be hard-coded e.g., > @2022-11-01
       return MR.medication.coding[0]
     )
-    
+
 define "Injectable Clonidine Rx":
     (
       [MedicationRequest: "Injectable Clonidine"] MR
@@ -161,7 +161,7 @@ and exists "Non-Selective Blocker Rx"
 
 define "Oral or Injectable Clonidine with Non-selective Beta Blocker":
 exists ("Oral Clonidine Rx" union "Injectable Clonidine Rx")
-and exists "Non-Selective Blocker Rx"  
+and exists "Non-Selective Blocker Rx"
 
 define "Oral or Injectable Clonidine with Systemic Timolol":
 exists ("Oral Clonidine Rx" union "Injectable Clonidine Rx")
