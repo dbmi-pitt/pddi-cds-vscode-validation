@@ -1,0 +1,22 @@
+{
+    "resourceType": "MedicationStatement",
+    "id": "patient-TopClon-NonSelB-nadolol",
+    "status": "active",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "display": "nadolol 40 MG Oral Tablet",
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "198007"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-TopClon-NonSelB"
+    },
+    "effectivePeriod": {
+        "start": "2023-02-17T23:59:59+06:00",
+        "end": "2023-01-17T23:59:59+06:00"
+      }
+
+}

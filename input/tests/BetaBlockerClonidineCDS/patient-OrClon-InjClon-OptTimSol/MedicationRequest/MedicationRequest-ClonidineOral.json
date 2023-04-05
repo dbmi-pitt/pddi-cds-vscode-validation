@@ -1,0 +1,22 @@
+{
+  "resourceType": "MedicationRequest",
+  "id": "patient-OrClon-InjClon-OptTimSol-ClonidineOral",
+  "status": "stopped",
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "display": "clonidine hydrochloride 0.15 MG Oral Tablet",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "1233709"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-OrClon-InjClon-OptTimSol"
+  },
+  "authoredOn": {
+        "value": "2023-04-01T23:59:59+06:00"
+      }
+
+}
+

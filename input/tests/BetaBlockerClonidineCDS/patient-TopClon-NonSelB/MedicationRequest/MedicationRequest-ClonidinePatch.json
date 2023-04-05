@@ -1,0 +1,21 @@
+{
+    "resourceType": "MedicationRequest",
+    "id": "patient-TopClon-NonSelB-ClonidinePatch",
+    "status": "stopped",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "display": "168 HR clonidine 0.00833 MG/HR Transdermal System",
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "998675"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-TopClon-NonSelB"
+    },
+    "authoredOn": {
+        "value": "2023-04-01T23:59:59+06:00"
+      }
+
+}
