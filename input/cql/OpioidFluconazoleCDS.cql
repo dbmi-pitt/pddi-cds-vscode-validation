@@ -89,7 +89,7 @@ define "Fluconazoles Rx":
       return MR.medication.coding[0]
     )
 
-// Refer to class when looking at observation, and lists codes in above
+// Refer to class when looking at encounter, and lists codes in above
 define "Inpatient Visit":
  (
   [Encounter: class ~ "Inpatient Encounter"] IE

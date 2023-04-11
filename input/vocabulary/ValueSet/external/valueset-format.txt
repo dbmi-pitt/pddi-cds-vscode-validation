@@ -26,9 +26,10 @@
             <system value="http://www.nlm.nih.gov/research/umls/rxnorm" />
             <version value="02-Feb-2023" />
             <concept>
-              <code value=xz />
-              <display value=zx />
+              <code value="xz" />
+              <display value="zx" />
             </concept>
+
             </include>
         </compose>
       </ValueSet>
