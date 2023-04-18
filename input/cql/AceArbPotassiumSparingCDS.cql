@@ -81,7 +81,7 @@ define "High Potassium":
         value: (PC.value).value, unit: 'mmol/L'
     } >= 5 'mmol/L'
     and
-    (Today() - 2 days) < PC.effective.value
+    (Today() - 100 days) < PC.effective.value
  )
 
 define "Low Potassium":
@@ -91,7 +91,7 @@ define "Low Potassium":
         value: (PC.value).value, unit: 'mmol/L'
     } < 5 'mmol/L'
     and
-    (Today() - 2 days) < PC.effective.value
+    (Today() - 100 days) < PC.effective.value
  )
 
 define "Low eGFR":
@@ -103,7 +103,7 @@ define "Low eGFR":
             } <= 60 'ml/min'
         )
         and
-        (Today() - 2 days) < EG.effective.value
+        (Today() - 100 days) < EG.effective.value
   )
 
 
@@ -116,7 +116,7 @@ define "High eGFR":
             } > 60 'ml/min'
         )
         and
-        (Today() - 2 days) < EG.effective.value
+        (Today() - 100 days) < EG.effective.value
   )
 
 
