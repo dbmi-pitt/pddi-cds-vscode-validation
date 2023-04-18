@@ -227,8 +227,7 @@ exists "Inpatient Visit"
 
 define "eGFR less than 30 ml/min":
 "Inclusion criteria" is not null
-and
-exists "Low eGFR"
+and exists "Low eGFR"
 
 define "Fentanyl with low dose fluconazole":
 "Inclusion criteria" is not null
@@ -260,8 +259,7 @@ and exists "High dose fluconazole"
 
 define "High dose oxycodone with low dose fluconazole":
 "Inclusion criteria" is not null
-and
-exists "High eGFR"
+and exists "High eGFR"
 and exists "High dose oxycodone"
 and exists "Low dose fluconazole"
 
