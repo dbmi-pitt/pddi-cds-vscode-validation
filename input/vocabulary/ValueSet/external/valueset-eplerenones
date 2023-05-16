@@ -1,0 +1,42 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+             <id value="valueset-eplerenones"/>
+            <url value="http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-eplerenones"/>
+            <name value="valueset-eplerenones"/>
+            <version value="US 1.0"/>
+            <title value="Eplerenone Medications Value Set"/>
+            <status value="draft"/>
+            <date value="2018-06-20"/>
+            <publisher value="PDDI CDS"/>
+            <contact>
+                 <name value="Richard Boyce boycerd@upmc.edu"/>
+             </contact>
+             <description
+                     value="Includes RxNorm codes for any form of Eplerenone medications."/>
+             <jurisdiction>
+                <coding>
+                  <system value="urn:iso:std:iso:3166"/>
+                     <code value="US"/>
+                     <display value="United States of America"/>
+                 </coding>
+                </jurisdiction>
+            <purpose value="Provide terminology for PDDI CDS (KCL + Potassium Sparing Diuretic rule) FHIR resources"/>
+            <copyright value="Attribution CC BY"/>
+        <compose>
+         <include>
+            <system value="http://www.nlm.nih.gov/research/umls/rxnorm" />
+            <version value="02-Feb-2023" />
+            <concept>
+              <code value="351256" />
+              <display value="eplerenone 25 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="351257" />
+              <display value="eplerenone 50 MG Oral Tablet" />
+            </concept>
+             <concept>
+              <code value="351258" />
+              <display value="eplerenone 100 MG Oral Tablet" />
+            </concept>                         
+            </include>
+        </compose>
+      </ValueSet>

@@ -1,0 +1,50 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+             <id value="valueset-potassiums"/>
+            <url value="http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-potassiums"/>
+            <name value="valueset-potassiums"/>
+            <version value="US 1.0"/>
+            <title value="Potassium Medications Value Set"/>
+            <status value="draft"/>
+            <date value="2018-06-20"/>
+            <publisher value="PDDI CDS"/>
+            <contact>
+                 <name value="Richard Boyce boycerd@upmc.edu"/>
+             </contact>
+             <description
+                     value="Includes RxNorm codes for any form of Potassium medications."/>
+             <jurisdiction>
+                <coding>
+                  <system value="urn:iso:std:iso:3166"/>
+                     <code value="US"/>
+                     <display value="United States of America"/>
+                 </coding>
+                </jurisdiction>
+            <purpose value="Provide terminology for PDDI CDS (KCL + Potassium Sparing Diuretic rule) FHIR resources"/>
+            <copyright value="Attribution CC BY"/>
+        <compose>
+         <include>
+            <system value="http://www.nlm.nih.gov/research/umls/rxnorm" />
+            <version value="02-Feb-2023" />
+            <concept>
+              <code value="1160486" />
+              <display value="potassium chloride Injectable Product" />
+            </concept>
+            <concept>
+              <code value="1160488" />
+              <display value="potassium chloride Oral Liquid Product" />
+            </concept>
+            <concept>
+              <code value="1160489" />
+              <display value="potassium chloride Oral Product" />
+            </concept>
+            <concept>
+              <code value="1160490" />
+              <display value="potassium chloride Pill" />
+            </concept>
+            <concept>
+              <code value="1161066" />
+              <display value="potassium Pill" />
+            </concept>
+            </include>
+        </compose>
+      </ValueSet>

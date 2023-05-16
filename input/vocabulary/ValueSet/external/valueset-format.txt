@@ -19,7 +19,7 @@
                      <display value="United States of America"/>
                  </coding>
                 </jurisdiction>
-            <purpose value="Provide terminology for PDDI CDS (immunosuppresants + Fluconazole rule) FHIR resources"/>
+            <purpose value="Provide terminology for PDDI CDS ( +  rule) FHIR resources"/>
             <copyright value="Attribution CC BY"/>
         <compose>
          <include>

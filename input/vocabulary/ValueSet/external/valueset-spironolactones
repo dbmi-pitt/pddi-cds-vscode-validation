@@ -1,0 +1,142 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+             <id value="valueset-spironolactones"/>
+            <url value="http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-spironolactones"/>
+            <name value="valueset-spironolactones"/>
+            <version value="US 1.0"/>
+            <title value="Spironolactone Medications Value Set"/>
+            <status value="draft"/>
+            <date value="2018-06-20"/>
+            <publisher value="PDDI CDS"/>
+            <contact>
+                 <name value="Richard Boyce boycerd@upmc.edu"/>
+             </contact>
+             <description
+                     value="Includes RxNorm codes for any form of Spironolactone medications."/>
+             <jurisdiction>
+                <coding>
+                  <system value="urn:iso:std:iso:3166"/>
+                     <code value="US"/>
+                     <display value="United States of America"/>
+                 </coding>
+                </jurisdiction>
+            <purpose value="Provide terminology for PDDI CDS (KCL + Potassium Sparing Diuretic rule) FHIR resources"/>
+            <copyright value="Attribution CC BY"/>
+        <compose>
+         <include>
+            <system value="http://www.nlm.nih.gov/research/umls/rxnorm" />
+            <version value="02-Feb-2023" />
+            <concept>
+              <code value="246399" />
+              <display value="furosemide 20 MG / spironolactone 50 MG Oral Capsule" />
+            </concept>
+            <concept>
+              <code value="104233" />
+              <display value="spironolactone 10 MG/ML Oral Suspension" />
+            </concept>
+            <concept>
+              <code value="313096" />
+              <display value="spironolactone 25 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="198222" />
+              <display value="spironolactone 100 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="198224" />
+              <display value="hydrochlorothiazide 25 MG / spironolactone 25 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="198223" />
+              <display value="spironolactone 50 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="104230" />
+              <display value="spironolactone 1 MG/ML Oral Suspension" />
+            </concept>
+            <concept>
+              <code value="104231" />
+              <display value="spironolactone 2 MG/ML Oral Suspension" />
+            </concept>
+            <concept>
+              <code value="198225" />
+              <display value="hydrochlorothiazide 50 MG / spironolactone 50 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="104232" />
+              <display value="spironolactone 5 MG/ML Oral Suspension" />
+            </concept>
+            <concept>
+              <code value="250376" />
+              <display value="hydroflumethiazide 25 MG / spironolactone 25 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="250377" />
+              <display value="hydroflumethiazide 50 MG / spironolactone 50 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="432636" />
+              <display value="althiazide 15 MG / spironolactone 25 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="432647" />
+              <display value="furosemide 20 MG / spironolactone 100 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="432662" />
+              <display value="bendroflumethiazide 50 MG / spironolactone 2.5 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="427928" />
+              <display value="buthiazide 5 MG / spironolactone 50 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="429194" />
+              <display value="spironolactone 75 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="432646" />
+              <display value="furosemide 20 MG / spironolactone 50 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="432663" />
+              <display value="bendroflumethiazide 100 MG / spironolactone 5 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="251564" />
+              <display value="furosemide 20 MG / spironolactone 100 MG Oral Capsule" />
+            </concept>
+            <concept>
+              <code value="250704" />
+              <display value="buthiazide 10 MG / spironolactone 100 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="429195" />
+              <display value="hydrochlorothiazide 100 MG / spironolactone 50 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="249762" />
+              <display value="buthiazide 2.5 MG / spironolactone 25 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="411480" />
+              <display value="buthiazide 10 MG / spironolactone 100 MG Oral Capsule" />
+            </concept>
+            <concept>
+              <code value="252142" />
+              <display value="spironolactone 50 MG/ML Topical Cream" />
+            </concept>
+            <concept>
+              <code value="104234" />
+              <display value="spironolactone 100 MG Oral Capsule" />
+            </concept>
+            <concept>
+              <code value="411224" />
+              <display value="spironolactone 50 MG Oral Capsule" />
+            </concept>
+            <concept>
+              <code value="411223" />
+              <display value="spironolactone 75 MG Oral Capsule" />
+            </concept>
+            </include>
+        </compose>
+      </ValueSet>

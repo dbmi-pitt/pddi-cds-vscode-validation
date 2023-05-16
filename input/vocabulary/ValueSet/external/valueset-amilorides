@@ -1,0 +1,126 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+             <id value="valueset-amilorides"/>
+            <url value="http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-amilorides"/>
+            <name value="valueset-amilorides"/>
+            <version value="US 1.0"/>
+            <title value="Amiloride Medications Value Set"/>
+            <status value="draft"/>
+            <date value="2018-06-20"/>
+            <publisher value="PDDI CDS"/>
+            <contact>
+                 <name value="Richard Boyce boycerd@upmc.edu"/>
+             </contact>
+             <description
+                     value="Includes RxNorm codes for any form of Amiloride medications."/>
+             <jurisdiction>
+                <coding>
+                  <system value="urn:iso:std:iso:3166"/>
+                     <code value="US"/>
+                     <display value="United States of America"/>
+                 </coding>
+                </jurisdiction>
+            <purpose value="Provide terminology for PDDI CDS (KCL + Potassium Sparing Diuretic rule) FHIR resources"/>
+            <copyright value="Attribution CC BY"/>
+        <compose>
+         <include>
+            <system value="http://www.nlm.nih.gov/research/umls/rxnorm" />
+            <version value="02-Feb-2023" />
+            <concept>
+              <code value="977907" />
+              <display value="amiloride hydrochloride 2.5 MG / cyclopenthiazide 0.25 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="977949" />
+              <display value="amiloride hydrochloride 2.5 MG / hydrochlorothiazide 25 MG / timolol maleate 10 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="977880" />
+              <display value="amiloride hydrochloride 5 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="977951" />
+              <display value="amiloride hydrochloride 5 MG / bumetanide 1 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="977945" />
+              <display value="amiloride hydrochloride 2.5 MG / furosemide 20 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="977887" />
+              <display value="amiloride hydrochloride 1 MG/ML Oral Solution" />
+            </concept>
+            <concept>
+              <code value="977950" />
+              <display value="amiloride hydrochloride 2.5 MG / hydrochlorothiazide 25 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="977920" />
+              <display value="amiloride hydrochloride 2.5 MG / atenolol 50 MG / hydrochlorothiazide 25 MG Oral Capsule" />
+            </concept>
+            <concept>
+              <code value="977959" />
+              <display value="amiloride hydrochloride 5 MG / furosemide 40 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="977883" />
+              <display value="amiloride hydrochloride 5 MG / hydrochlorothiazide 50 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="977890" />
+              <display value="amiloride hydrochloride 10 MG / furosemide 80 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="432897" />
+              <display value="amiloride 5 MG / hydrochlorothiazide 50 MG / timolol 20 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="427390" />
+              <display value="amiloride 2.5 MG / metolazone 2.5 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="251268" />
+              <display value="amiloride 1 MG/ML / hydrochlorothiazide 10 MG/ML Oral Solution" />
+            </concept>
+            <concept>
+              <code value="432599" />
+              <display value="amiloride 5 MG / bendroflumethiazide 2.5 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="562147" />
+              <display value="amiloride 5 MG/ML Oral Solution" />
+            </concept>
+            <concept>
+              <code value="249062" />
+              <display value="amiloride 10 MG / furosemide 40 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="251054" />
+              <display value="amiloride 20 MG / furosemide 40 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="430188" />
+              <display value="amiloride 1.8 MG / furosemide 5 MG / indapamide 16 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="430187" />
+              <display value="amiloride 16 MG / furosemide 1.8 MG / indapamide 5 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="432951" />
+              <display value="amiloride 2.5 MG / atenolol 50 MG / hydrochlorothiazide 25 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="246528" />
+              <display value="amiloride 4 MG / furosemide 40 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="432742" />
+              <display value="amiloride 2 MG / trichlormethiazide 2 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="427704" />
+              <display value="amiloride 2.5 MG / hydrochlorothiazide 25 MG / methyldopa 250 MG Oral Tablet" />
+            </concept>
+        </include>
+        </compose>
+      </ValueSet>

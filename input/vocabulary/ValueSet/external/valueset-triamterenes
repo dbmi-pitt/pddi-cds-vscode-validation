@@ -1,0 +1,150 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+             <id value="valueset-triamterenes"/>
+            <url value="http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-triamterenes"/>
+            <name value="valueset-triamterenes"/>
+            <version value="US 1.0"/>
+            <title value="Triamterene Medications Value Set"/>
+            <status value="draft"/>
+            <date value="2018-06-20"/>
+            <publisher value="PDDI CDS"/>
+            <contact>
+                 <name value="Richard Boyce boycerd@upmc.edu"/>
+             </contact>
+             <description
+                     value="Includes RxNorm codes for any form of Triamterene medications."/>
+             <jurisdiction>
+                <coding>
+                  <system value="urn:iso:std:iso:3166"/>
+                     <code value="US"/>
+                     <display value="United States of America"/>
+                 </coding>
+                </jurisdiction>
+            <purpose value="Provide terminology for PDDI CDS (KCL + Potassium Sparing Diuretic rule) FHIR resources"/>
+            <copyright value="Attribution CC BY"/>
+        <compose>
+         <include>
+            <system value="http://www.nlm.nih.gov/research/umls/rxnorm" />
+            <version value="02-Feb-2023" />
+            <concept>
+              <code value="250708" />
+              <display value="furosemide 40 MG / triamterene 50 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="314029" />
+              <display value="hydrochlorothiazide 25 MG / triamterene 50 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="310818" />
+              <display value="hydrochlorothiazide 50 MG / triamterene 75 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="104246" />
+              <display value="chlorthalidone 25 MG / triamterene 50 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="412043" />
+              <display value="furosemide 25 MG / triamterene 15 MG Extended Release Oral Capsule" />
+            </concept>
+            <concept>
+              <code value="1233787" />
+              <display value="clonidine hydrochloride 0.15 MG / hydrochlorothiazide 5 MG / triamterene 10 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="428210" />
+              <display value="methyclothiazide 5 MG / triamterene 150 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="429933" />
+              <display value="dehydrosanol 25 MG / triamterene 50 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="432677" />
+              <display value="triamterene 30 MG / xipamide 10 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="198315" />
+              <display value="hydrochlorothiazide 50 MG / triamterene 50 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="245283" />
+              <display value="triamterene 50 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="409813" />
+              <display value="dehydrosanol 25 MG / triamterene 50 MG Oral Capsule" />
+            </concept>
+            <concept>
+              <code value="432769" />
+              <display value="hydrochlorothiazide 25 MG / triamterene 50 MG / verapamil 160 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="429934" />
+              <display value="dehydrosanol 10 MG / triamterene 20 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="429932" />
+              <display value="dehydrosanol 5 MG / triamterene 10 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="432676" />
+              <display value="triamterene 15 MG / xipamide 5 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="428603" />
+              <display value="hydrochlorothiazide 12.5 MG / triamterene 25 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="427727" />
+              <display value="metolazone 2.5 MG / triamterene 50 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="310817" />
+              <display value="hydrochlorothiazide 50 MG / triamterene 75 MG Oral Capsule" />
+            </concept>
+            <concept>
+              <code value="428292" />
+              <display value="cyclothiazide 3 MG / triamterene 150 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="430625" />
+              <display value="furosemide 50 MG / triamterene 20 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="412042" />
+              <display value="furosemide 50 MG / triamterene 30 MG Extended Release Oral Capsule" />
+            </concept>
+            <concept>
+              <code value="245284" />
+              <display value="triamterene 100 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="198313" />
+              <display value="triamterene 50 MG Oral Capsule" />
+            </concept>
+            <concept>
+              <code value="198316" />
+              <display value="hydrochlorothiazide 25 MG / triamterene 37.5 MG Oral Capsule" />
+            </concept>
+            <concept>
+              <code value="104245" />
+              <display value="benzthiazide 25 MG / triamterene 50 MG Oral Capsule" />
+            </concept>
+            <concept>
+              <code value="104248" />
+              <display value="chlorthalidone 50 MG / triamterene 50 MG Oral Tablet" />
+            </concept>
+            <concept>
+              <code value="198312" />
+              <display value="triamterene 100 MG Oral Capsule" />
+            </concept>
+            <concept>
+              <code value="198314" />
+              <display value="hydrochlorothiazide 25 MG / triamterene 50 MG Oral Capsule" />
+            </concept>
+            <concept>
+              <code value="310812" />
+              <display value="hydrochlorothiazide 25 MG / triamterene 37.5 MG Oral Tablet" />
+            </concept>            
+            </include>
+        </compose>
+      </ValueSet>

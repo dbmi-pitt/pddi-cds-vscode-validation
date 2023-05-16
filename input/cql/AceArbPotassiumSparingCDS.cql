@@ -128,12 +128,12 @@ and
 exists "Potassium Sparing Diuretic Rx"
 
 // Next steps define alerts based on above defined criteria
-define "Potassium Concentration less than 5 mmol/L":
+define "Potassium Concentration more than 5 mmol/L":
 "Inclusion criteria"
 and
 exists "High Potassium"
 
-define "eGRF less than 60 mL/min":
+define "eGFR less than 60 mL/min":
 "Inclusion criteria"
 and exists "Low Potassium"
 and exists "Low eGFR"
