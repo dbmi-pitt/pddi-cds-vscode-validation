@@ -139,7 +139,7 @@ exists (
         value: (PC.value).value, unit: 'mmol/L'
     } < 5.5 'mmol/L'
     and
-    (Today() - 2 days) < PC.effective.value
+    (Today() - 100 days) < PC.effective.value
  )
 and
 exists (
@@ -148,7 +148,7 @@ exists (
         value: (PC.value).value, unit: 'mmol/L'
     } > 5 'mmol/L'
     and
-    (Today() - 2 days) < PC.effective.value
+    (Today() - 100 days) < PC.effective.value
  )
 
 
