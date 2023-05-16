@@ -1,6 +1,6 @@
 {
     "resourceType": "Observation",
-    "id": "patient-ami-5-5.5-potassium",
+    "id": "patient-ami-H10-LP-potassium",
     "status": "final",
     "code": {
       "coding": [
@@ -12,10 +12,10 @@
       ]
     },
     "subject": {
-      "reference": "Patient/patient-ami-5-5.5"
+      "reference": "Patient/patient-ami-H10-LP"
     },
     "valueQuantity": {
-      "value": 5.3,
+      "value": 5,
       "unit": "mmol/L"
     },
     "effectiveDateTime": "2023-04-11T17:23:00Z"

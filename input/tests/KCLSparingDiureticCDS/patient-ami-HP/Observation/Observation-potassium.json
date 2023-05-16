@@ -1,6 +1,6 @@
 {
     "resourceType": "Observation",
-    "id": "patient-spi-HP-potassium",
+    "id": "patient-ami-HP-potassium",
     "status": "final",
     "code": {
       "coding": [
@@ -12,7 +12,7 @@
       ]
     },
     "subject": {
-      "reference": "Patient/patient-spi-HP"
+      "reference": "Patient/patient-ami-HP"
     },
     "valueQuantity": {
       "value": 5.7,

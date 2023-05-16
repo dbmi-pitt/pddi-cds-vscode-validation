@@ -1,0 +1,38 @@
+{
+    "resourceType": "MedicationStatement",
+    "id": "patient-tri-L37.5-LP-triamterene",
+    "status": "active",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "display": "hydrochlorothiazide 12.5 MG / triamterene 25 MG Oral Tablet",
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "428603"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-tri-L37.5-LP"
+    },
+    "effectivePeriod": {
+        "start": "2023-02-17T23:59:59+06:00",
+        "end": "2023-01-17T23:59:59+06:00"
+      },
+    "dosage": {
+      "timing": {
+        "repeat":{
+          "frequency": 1,
+          "period": 1,
+          "periodUnit": "d"
+        }
+      },   
+      "doseAndRate":[{
+        "doseQuantity": {
+          "value": 25,
+          "unit": "mg"
+        }
+      }
+      ]
+    }
+}
+

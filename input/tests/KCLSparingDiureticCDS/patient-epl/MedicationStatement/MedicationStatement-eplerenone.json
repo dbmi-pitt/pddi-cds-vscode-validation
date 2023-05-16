@@ -1,21 +1,22 @@
 {
     "resourceType": "MedicationStatement",
-    "id": "patient-ami-HP-KCL",
+    "id": "patient-epl-spironolactone",
     "status": "active",
     "medicationCodeableConcept": {
       "coding": [
         {
-          "display": "potassium chloride Pill",
+          "display": "eplerenone 25 MG Oral Tablet",
           "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
-          "code": "1160490"
+          "code": "351256"
         }
       ]
     },
     "subject": {
-      "reference": "Patient/patient-ami-HP"
+      "reference": "Patient/patient-epl"
     },
     "effectivePeriod": {
-        "start": "2023-04-09T23:59:59+06:00",
-        "end": "2023-05-17T23:59:59+06:00"
-      } 
-  }
+        "start": "2023-02-17T23:59:59+06:00",
+        "end": "2023-01-17T23:59:59+06:00"
+      }
+    }
+
