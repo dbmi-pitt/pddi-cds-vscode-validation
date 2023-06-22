@@ -13,6 +13,7 @@ valueset "Selective BetaBlocker": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valu
 valueset "Non-Selective Blocker":'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-nonselectiveblocker'
 valueset "Opthalmic Timolol Solution": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-opthalmictimololsolution'
 valueset "Opthalmic Timolol Gel": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-opthalmictimololgel'
+valueset "Oral Timolol": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-oraltimolol' - "delete epidurals from systemic timolol valuset"
 valueset "Carvediolol":'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-'
 valueset "Labetalol":'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-'
 valueset "Local Anesthetic":'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-'
@@ -144,6 +145,19 @@ define "Opthalmic Timolol Gel Rx":
     union
     (
       [MedicationRequest: "Opthalmic Timolol Gel"] MR
+      where MR.authoredOn.value > (Today() - 100 days) // or, could be hard-coded e.g., > @2022-11-01
+      return MR.medication.coding[0]
+    )
+
+define "Oral Timolol Rx":
+    (
+      [MedicationStatement: "Oral Timolol"] MS
+        where (Today() - 100 days) < MS.effective.start.value  // or, could be hard-coded e.g., > @2022-11-01
+        return MS.medication.coding[0]
+    )
+    union
+    (
+      [MedicationRequest: "Oral Timolol"] MR
       where MR.authoredOn.value > (Today() - 100 days) // or, could be hard-coded e.g., > @2022-11-01
       return MR.medication.coding[0]
     )
