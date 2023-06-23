@@ -16,7 +16,7 @@ valueset "Opthalmic Timolol Gel": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valu
 valueset "Oral Timolol": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-oraltimolol' - "delete epidurals from systemic timolol valuset"
 valueset "Carvediolol":'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-'
 valueset "Labetalol":'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-'
-valueset "Local Anesthetic":'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-'
+valueset "Local Anesthetic":'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-' - "create local anesthetics in vsac - their are the caines - lidocaine"
 valueset "Dermatological/Dental": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-'
 valueset "Plastic Surgery": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-'
 valueset "Anaphylaxis": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-'
