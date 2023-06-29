@@ -6,20 +6,23 @@ include FHIRHelpers version '4.0.1' called FHIRHelpers
 codesystem "RXNORM": 'http://www.nlm.nih.gov/research/umls/rxnorm'
 codesystem "LOINC": 'http://loinc.org'
 
-valueset "Inhaled Epinephrine": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-'
-valueset "Ophthalmic Epinephrine": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-'
-valueset "Injectable Epinephrine":'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-'
+valueset "Inhaled Epinephrine": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-inhaledEpinephrine'
+valueset "Ophthalmic Epinephrine": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-opthalmicEpinephrine'
+valueset "Injectable Epinephrine":'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-injectableEpinephrine'
 valueset "Selective BetaBlocker": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-selectivebetablocker'
 valueset "Non-Selective Blocker":'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-nonselectiveblocker'
 valueset "Opthalmic Timolol Solution": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-opthalmictimololsolution'
 valueset "Opthalmic Timolol Gel": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-opthalmictimololgel'
-valueset "Oral Timolol": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-oraltimolol' - "delete epidurals from systemic timolol valuset"
-valueset "Carvediolol":'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-'
-valueset "Labetalol":'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-'
-valueset "Local Anesthetic":'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-' - "create local anesthetics in vsac - their are the caines - lidocaine"
-valueset "Dermatological/Dental": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-'
-valueset "Plastic Surgery": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-'
-valueset "Anaphylaxis": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-'
+valueset "Oral Timolol": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-oraltimolol'
+valueset "Carvediolol":'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-carvediolol'
+valueset "Labetalol":'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-labetalol'
+valueset "Local Anesthetic":'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-localanesthetic'
+
+
+code "Dental": '54571-5' from "LOINC" display 'Dental' // can also create valuset of ICD codes
+code "Dermatological": 'LP172935-1' from "LOINC" display 'Dermatology' // can also create valuset of ICD codes
+code "Anaphylaxis": 'LA7413-3' from "LOINC" display 'Anaphylaxis'
+code "Plastic Surgery": 'LP173006-0' from "LOINC" display 'Plastic surgery' // can also create valuset of ICD codes
 
 
 context Patient
@@ -248,7 +251,9 @@ define "Dose below 0.5 mg":
 
 
 define "Dermatological/Dental Condition":
-[Condition: "Dermatological/Dental"]
+[Condition: "Dental"]
+union
+[Condition: "Dermatological"]
 
 define "Anaphylaxis Condition":
 [Condition: "Anaphylaxis"]
@@ -256,13 +261,6 @@ define "Anaphylaxis Condition":
 define "Plastic Surgery Procedure":
 [Condition: "Plastic Surgery"]
 
-//Need to refer to epinephrine as it relates to medication start value
-
-
-
-
-
-// Next steps define alerts based on above defined criteria
 
 
 
