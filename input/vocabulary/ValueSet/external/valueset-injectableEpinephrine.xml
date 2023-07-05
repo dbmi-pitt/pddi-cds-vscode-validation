@@ -1,0 +1,48 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="valueset-injectableEpinephrine"/>
+                <url value="http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-injectableEpinephrine"/>
+                <name value="valueset-injectableEpinephrine"/>
+                <version value="US 1.0"/>
+                <title value="Injectable Epinephrine Medications Value Set"/>
+                <status value="draft"/>
+                <date value="2018-06-20"/>
+                <publisher value="PDDI CDS"/>
+                <contact>
+                    <name value="Richard Boyce boycerd@upmc.edu"/>
+                </contact>
+                <description
+                        value="This set of values contains Injectable Epinephrine medications."/>
+                <jurisdiction>
+                    <coding>
+                        <system value="urn:iso:std:iso:3166"/>
+                        <code value="US"/>
+                        <display value="United States of America"/>
+                    </coding>
+                </jurisdiction>
+                <purpose value="Provide terminology for PDDI CDS (Epinephrine + Beta Blocker rule) FHIR resources"/>
+                <copyright value="Attribution CC BY"/>
+                <compose>
+                    <include>
+                        <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                        <version value="04-Jun-2018"/>                        
+                        <concept>
+                            <code value="310132" />
+                            <display value="epinephrine 1 MG/ML Injectable Solution" />
+                        </concept>                        
+                        <concept>
+                            <code value="727316" />
+                            <display value="0.3 ML epinephrine 0.5 MG/ML Auto-Injector" />
+                        </concept>                        
+                        <concept>
+                            <code value="727373" />
+                            <display value="10 ML epinephrine 0.1 MG/ML Prefilled Syringe" />
+                        </concept>
+                        <concept>
+                            <code value="1660014" />
+                            <display value="1 ML epinephrine 1 MG/ML Injection" />
+                        </concept>
+                        
+                    </include>
+        </compose>
+      </ValueSet>
+                        

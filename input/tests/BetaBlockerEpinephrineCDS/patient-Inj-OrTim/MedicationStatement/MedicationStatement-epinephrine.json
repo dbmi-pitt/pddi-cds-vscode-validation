@@ -1,0 +1,22 @@
+{
+    "resourceType": "MedicationStatement",
+    "id": "patient-Clon-AlphB-epinephrine",
+    "status": "active",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "display": "0.3 ML epinephrine 0.5 MG/ML Auto-Injector",
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "727316"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-Clon-AlphB"
+    },
+    "effectivePeriod": {
+        "start": "2023-03-17T23:59:59+06:00",
+        "end": "2023-05-17T23:59:59+06:00"
+      }
+
+}

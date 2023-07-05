@@ -1,0 +1,101 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="valueset-localanesthetic"/>
+                <url value="http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-localanesthetic"/>
+                <name value="valueset-localanesthetic"/>
+                <version value="US 1.0"/>
+                <title value="Local Anesthetic Medications Value Set"/>
+                <status value="draft"/>
+                <date value="2018-06-20"/>
+                <publisher value="PDDI CDS"/>
+                <contact>
+                    <name value="Kojo Abanyie koa27@pitt.edu"/>
+                </contact>
+                <description
+                        value="This set of values contains Local Anesthetic medications."/>
+                <jurisdiction>
+                    <coding>
+                        <system value="urn:iso:std:iso:3166"/>
+                        <code value="US"/>
+                        <display value="United States of America"/>
+                    </coding>
+                </jurisdiction>
+                <purpose value="Provide terminology for PDDI CDS (Epinephrine + Beta Blocker rule) FHIR resources"/>
+                <copyright value="Attribution CC BY"/>
+                <compose>
+                    <include>
+                        <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                        <version value="04-Jun-2018"/>
+                         <concept>
+                            <code value="1010745" />
+                            <display value="epinephrine 0.005 MG/ML / lidocaine hydrochloride 5 MG/ML Injectable Solution" />
+                        </concept>
+                        <concept>
+                            <code value="1595042" />
+                            <display value="1.7 ML epinephrine 0.005 MG/ML / prilocaine hydrochloride 40 MG/ML Cartridge" />
+                        </concept>
+                        <concept>
+                            <code value="1658966" />
+                            <display value="1.8 ML articaine hydrochloride 40 MG/ML / epinephrine 0.005 MG/ML Cartridge" />
+                        </concept>
+                        <concept>
+                            <code value="1596950" />
+                            <display value="1.8 ML epinephrine 0.005 MG/ML / prilocaine hydrochloride 40 MG/ML Cartridge" />
+                        </concept>
+                        <concept>
+                            <code value="1012377" />
+                            <display value="bupivacaine hydrochloride 2.5 MG/ML / epinephrine 0.005 MG/ML Injectable Solution" />
+                        </concept>
+                        <concept>
+                            <code value="1595035" />
+                            <display value="1.7 ML articaine hydrochloride 40 MG/ML / epinephrine 0.01 MG/ML Cartridge" />
+                        </concept>
+                        <concept>
+                            <code value="1012384" />
+                            <display value="bupivacaine hydrochloride 5 MG/ML / epinephrine 0.005 MG/ML Injectable Solution" />
+                        </concept>
+                        <concept>
+                            <code value="1657026" />
+                            <display value="1.7 ML epinephrine 0.02 MG/ML / lidocaine hydrochloride 20 MG/ML Cartridge" />
+                        </concept>
+                        <concept>
+                            <code value="1293648" />
+                            <display value="1.7 ML epinephrine 0.01 MG/ML / lidocaine hydrochloride 20 MG/ML Cartridge" />
+                        </concept>
+                        <concept>
+                            <code value="1595029" />
+                            <display value="1.7 ML articaine hydrochloride 40 MG/ML / epinephrine 0.005 MG/ML Cartridge" />
+                        </concept>
+                        <concept>
+                            <code value="1657016" />
+                            <display value="1.8 ML epinephrine 0.02 MG/ML / lidocaine hydrochloride 20 MG/ML Cartridge" />
+                        </concept>
+                        <concept>
+                            <code value="1010759" />
+                            <display value="epinephrine 0.01 MG/ML / lidocaine hydrochloride 20 MG/ML Injectable Solution" />
+                        </concept>
+                        <concept>
+                            <code value="1661483" />
+                            <display value="1.8 ML articaine hydrochloride 40 MG/ML / epinephrine 0.01 MG/ML Cartridge" />
+                        </concept>
+                        <concept>
+                            <code value="1012391" />
+                            <display value="30 ML bupivacaine hydrochloride 7.5 MG/ML / epinephrine 0.005 MG/ML Injection" />
+                        </concept>
+                        <concept>
+                            <code value="1293628" />
+                            <display value="1.8 ML epinephrine 0.01 MG/ML / lidocaine hydrochloride 20 MG/ML Cartridge" />
+                        </concept>
+                        <concept>
+                            <code value="1010751" />
+                            <display value="epinephrine 0.01 MG/ML / lidocaine hydrochloride 10 MG/ML Injectable Solution" />
+                        </concept>
+                        <concept>
+                            <code value="1010688" />
+                            <display value="20 ML epinephrine 0.005 MG/ML / lidocaine hydrochloride 20 MG/ML Injection" />
+                        </concept>
+
+
+                    
+                    </include>
+        </compose>
+      </ValueSet>

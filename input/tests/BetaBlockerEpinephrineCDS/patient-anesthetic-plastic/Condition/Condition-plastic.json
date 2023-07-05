@@ -1,0 +1,16 @@
+{
+"resourceType": "Condition",
+      "id": "patient-dental",
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "LP173006-0",
+          "display": "Plastic surgery"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/"
+      },
+      "onsetDateTime": "2023-07-30T01:00:00.000-05:00"
+    
+    }

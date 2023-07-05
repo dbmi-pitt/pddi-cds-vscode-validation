@@ -6,23 +6,24 @@ include FHIRHelpers version '4.0.1' called FHIRHelpers
 codesystem "RXNORM": 'http://www.nlm.nih.gov/research/umls/rxnorm'
 codesystem "LOINC": 'http://loinc.org'
 
-valueset "Inhaled Epinephrine": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-inhaledEpinephrine'
-valueset "Ophthalmic Epinephrine": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-opthalmicEpinephrine'
+valueset "Inhaled Epinephrine": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-inhaledEpinephrine' //
+valueset "Ophthalmic Epinephrine": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-opthalmicEpinephrine' //
 valueset "Injectable Epinephrine":'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-injectableEpinephrine'
 valueset "Selective BetaBlocker": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-selectivebetablocker'
 valueset "Non-Selective Blocker":'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-nonselectiveblocker'
 valueset "Opthalmic Timolol Solution": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-opthalmictimololsolution'
 valueset "Opthalmic Timolol Gel": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-opthalmictimololgel'
-valueset "Oral Timolol": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-oraltimolol'
-valueset "Carvediolol":'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-carvediolol'
-valueset "Labetalol":'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-labetalol'
-valueset "Local Anesthetic":'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-localanesthetic'
+valueset "Oral Timolol": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-oraltimolol'//
+valueset "Alpha-Blocking Agent": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-alphablockingagent'
+valueset "Local Anesthetic":'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-localanesthetic' // Add local anestethics without current combinations
 
 
-code "Dental": '54571-5' from "LOINC" display 'Dental' // can also create valuset of ICD codes
-code "Dermatological": 'LP172935-1' from "LOINC" display 'Dermatology' // can also create valuset of ICD codes
-code "Anaphylaxis": 'LA7413-3' from "LOINC" display 'Anaphylaxis'
-code "Plastic Surgery": 'LP173006-0' from "LOINC" display 'Plastic surgery' // can also create valuset of ICD codes
+code "dental": '54571-5' from "LOINC" display 'Dental' // can also create valuset of ICD codes
+code "dermatological": 'LP172935-1' from "LOINC" display 'Dermatology' // can also create valuset of ICD codes
+code "anaphylaxis": 'LA7413-3' from "LOINC" display 'Anaphylaxis' 
+code "plastic surgery": 'LP173006-0' from "LOINC" display 'Plastic surgery' // can also create valuset of ICD codes
+code "anaphylaxis prevention": '74152-0' from "LOINC" display 'Anaphylaxis Prevention'
+//Code abvoe directly relates to anaphylaxis action plan - Use code that directly relates to anaphylaxis prevention if known
 
 
 context Patient
@@ -165,31 +166,19 @@ define "Oral Timolol Rx":
       return MR.medication.coding[0]
     )
 
-define "Carvediolol Rx":
+define "Alpha-Blocking Agent Rx":
     (
-      [MedicationStatement: "Carvediolol"] MS
+      [MedicationStatement: "Alpha-Blocking Agent"] MS
         where (Today() - 100 days) < MS.effective.start.value  // or, could be hard-coded e.g., > @2022-11-01
         return MS.medication.coding[0]
     )
     union
     (
-      [MedicationRequest: "Carvediolol"] MR
+      [MedicationRequest: "Alpha-Blocking Agent"] MR
       where MR.authoredOn.value > (Today() - 100 days) // or, could be hard-coded e.g., > @2022-11-01
       return MR.medication.coding[0]
     )
 
-define "Labetalol Rx":
-    (
-      [MedicationStatement: "Labetalol"] MS
-        where (Today() - 100 days) < MS.effective.start.value  // or, could be hard-coded e.g., > @2022-11-01
-        return MS.medication.coding[0]
-    )
-    union
-    (
-      [MedicationRequest: "Labetalol"] MR
-      where MR.authoredOn.value > (Today() - 100 days) // or, could be hard-coded e.g., > @2022-11-01
-      return MR.medication.coding[0]
-    )
 
 define "Local Anesthetic Rx":
     (
@@ -228,7 +217,7 @@ define "Dose above 0.3 mg":
       )
     )
 
-define "Dose below 0.5 mg":
+define "Dose below 0.6 mg":
 (
     [MedicationStatement: "Injectable Epinephrine"] MS
     where
@@ -249,17 +238,26 @@ define "Dose below 0.5 mg":
       )
     )
 
+define "Dose range between 0.3 and 0.6":
+"Dose above 0.3 mg"
+union 
+"Dose below 0.6 mg"
+
+
 
 define "Dermatological/Dental Condition":
-[Condition: "Dental"]
+[Condition: "dental"]
 union
-[Condition: "Dermatological"]
+[Condition: "dermatological"]
 
-define "Anaphylaxis Condition":
-[Condition: "Anaphylaxis"]
+define "Anaphylaxis":
+[Condition: "anaphylaxis"] // can be coded in ways other than condition such as an encounter or observation
+
+define "Anaphylaxis Prevention": 
+[Condition: "anaphylaxis prevention"] // can be coded in ways other than condition such as an encounter or observation
 
 define "Plastic Surgery Procedure":
-[Condition: "Plastic Surgery"]
+[Condition: "plastic surgery"]
 
 
 

@@ -1,0 +1,16 @@
+{
+"resourceType": "Condition",
+      "id": "patient-anaphylaxisprevent",
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "74152-0",
+          "display": "Anaphylaxis Prevention"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/"
+      },
+      "onsetDateTime": "2023-07-30T01:00:00.000-05:00"
+    
+    }
