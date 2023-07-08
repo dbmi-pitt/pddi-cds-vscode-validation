@@ -34,24 +34,8 @@
                             <display value="1.7 ML epinephrine 0.005 MG/ML / prilocaine hydrochloride 40 MG/ML Cartridge" />
                         </concept>
                         <concept>
-                            <code value="1658966" />
-                            <display value="1.8 ML articaine hydrochloride 40 MG/ML / epinephrine 0.005 MG/ML Cartridge" />
-                        </concept>
-                        <concept>
                             <code value="1596950" />
                             <display value="1.8 ML epinephrine 0.005 MG/ML / prilocaine hydrochloride 40 MG/ML Cartridge" />
-                        </concept>
-                        <concept>
-                            <code value="1012377" />
-                            <display value="bupivacaine hydrochloride 2.5 MG/ML / epinephrine 0.005 MG/ML Injectable Solution" />
-                        </concept>
-                        <concept>
-                            <code value="1595035" />
-                            <display value="1.7 ML articaine hydrochloride 40 MG/ML / epinephrine 0.01 MG/ML Cartridge" />
-                        </concept>
-                        <concept>
-                            <code value="1012384" />
-                            <display value="bupivacaine hydrochloride 5 MG/ML / epinephrine 0.005 MG/ML Injectable Solution" />
                         </concept>
                         <concept>
                             <code value="1657026" />
@@ -62,24 +46,12 @@
                             <display value="1.7 ML epinephrine 0.01 MG/ML / lidocaine hydrochloride 20 MG/ML Cartridge" />
                         </concept>
                         <concept>
-                            <code value="1595029" />
-                            <display value="1.7 ML articaine hydrochloride 40 MG/ML / epinephrine 0.005 MG/ML Cartridge" />
-                        </concept>
-                        <concept>
                             <code value="1657016" />
                             <display value="1.8 ML epinephrine 0.02 MG/ML / lidocaine hydrochloride 20 MG/ML Cartridge" />
                         </concept>
                         <concept>
                             <code value="1010759" />
                             <display value="epinephrine 0.01 MG/ML / lidocaine hydrochloride 20 MG/ML Injectable Solution" />
-                        </concept>
-                        <concept>
-                            <code value="1661483" />
-                            <display value="1.8 ML articaine hydrochloride 40 MG/ML / epinephrine 0.01 MG/ML Cartridge" />
-                        </concept>
-                        <concept>
-                            <code value="1012391" />
-                            <display value="30 ML bupivacaine hydrochloride 7.5 MG/ML / epinephrine 0.005 MG/ML Injection" />
                         </concept>
                         <concept>
                             <code value="1293628" />
@@ -93,9 +65,1050 @@
                             <code value="1010688" />
                             <display value="20 ML epinephrine 0.005 MG/ML / lidocaine hydrochloride 20 MG/ML Injection" />
                         </concept>
-
-
-                    
+                        <concept>
+                            <code value="1008407" />
+                            <display value="mepivacaine / polidocanol" />
+                        </concept>
+                        <concept>
+                            <code value="1012731" />
+                            <display value="30 ML mepivacaine hydrochloride 15 MG/ML Injection" />
+                        </concept>
+                        <concept>
+                            <code value="2613953" />
+                            <display value="chloroprocaine hydrochloride 0.03 MG/MG" />
+                        </concept>
+                        <concept>
+                            <code value="1547977" />
+                            <display value="tetracaine hydrochloride 10 MG/ML Ophthalmic Solution" />
+                        </concept>
+                        <concept>
+                            <code value="1012279" />
+                            <display value="etidocaine hydrochloride 10 MG/ML Injectable Solution" />
+                        </concept>
+                        <concept>
+                            <code value="1050109" />
+                            <display value="penicillin G procaine 300000 UNT/ML [Bactracillin G]" />
+                        </concept>
+                        <concept>
+                            <code value="227778" />
+                            <display value="proparacaine hydrochloride" />
+                        </concept>
+                        <concept>
+                            <code value="1008451" />
+                            <display value="ascorbic acid / tetracaine / tyrothricin" />
+                        </concept>
+                        <concept>
+                            <code value="1008213" />
+                            <display value="tetracaine / tricarbaurinium" />
+                        </concept>
+                        <concept>
+                            <code value="1010685" />
+                            <display value="epinephrine 0.005 MG/ML / lidocaine hydrochloride 15 MG/ML [Xylocaine with Epinephrine]" />
+                        </concept>
+                        <concept>
+                            <code value="1007322" />
+                            <display value="benzocaine / cetylpyridinium / menthol / zinc chloride" />
+                        </concept>
+                        <concept>
+                            <code value="1012479" />
+                            <display value="levobupivacaine hydrochloride 0.625 MG/ML Injectable Solution" />
+                        </concept>
+                        <concept>
+                            <code value="1011644" />
+                            <display value="articaine hydrochloride 40 MG/ML / epinephrine 0.005 MG/ML [Articadent]" />
+                        </concept>
+                        <concept>
+                            <code value="1247576" />
+                            <display value="fluorescein sodium 2.5 MG/ML / proparacaine hydrochloride 5 MG/ML Ophthalmic Solution [Flucaine]" />
+                        </concept>
+                        <concept>
+                            <code value="1050113" />
+                            <display value="penicillin G procaine 300000 UNT/ML [Norocillin]" />
+                        </concept>
+                        <concept>
+                            <code value="2613958" />
+                            <display value="chloroprocaine hydrochloride 0.03 MG/MG [Iheezo]" />
+                        </concept>
+                        <concept>
+                            <code value="377427" />
+                            <display value="cocaine Ophthalmic Solution" />
+                        </concept>
+                        <concept>
+                            <code value="238784" />
+                            <display value="dibucaine 0.01 MG/MG Rectal Ointment" />
+                        </concept>
+                        <concept>
+                            <code value="2463110" />
+                            <display value="cocaine esterase" />
+                        </concept>
+                        <concept>
+                            <code value="1012108" />
+                            <display value="bupivacaine hydrochloride 3.75 MG/ML / lidocaine hydrochloride 10 MG/ML Injectable Solution" />
+                        </concept>
+                        <concept>
+                            <code value="2272606" />
+                            <display value="cocaine Nasal Solution [Numbrino]" />
+                        </concept>
+                        <concept>
+                            <code value="1007549" />
+                            <display value="benzocaine / pyrilamine / zinc oxide" />
+                        </concept>
+                        <concept>
+                            <code value="1012478" />
+                            <display value="levobupivacaine hydrochloride 0.625 MG/ML" />
+                        </concept>
+                        <concept>
+                            <code value="1007300" />
+                            <display value="allantoin / benzocaine / dimethicone / petrolatum" />
+                        </concept>
+                        <concept>
+                            <code value="1807482" />
+                            <display value="tetracaine Injection" />
+                        </concept>
+                        <concept>
+                            <code value="2613960" />
+                            <display value="chloroprocaine Ophthalmic Gel [Iheezo]" />
+                        </concept>
+                        <concept>
+                            <code value="1012386" />
+                            <display value="bupivacaine hydrochloride 5 MG/ML / epinephrine 0.005 MG/ML [Marcaine with Epinephrine]" />
+                        </concept>
+                        <concept>
+                            <code value="1551408" />
+                            <display value="tetracaine hydrochloride 0.005 MG/MG" />
+                        </concept>
+                        <concept>
+                            <code value="1247447" />
+                            <display value="fluorescein sodium 2.5 MG/ML / proparacaine hydrochloride 5 MG/ML [Fluoracaine]" />
+                        </concept>
+                        <concept>
+                            <code value="378993" />
+                            <display value="proparacaine Ophthalmic Solution" />
+                        </concept>
+                        <concept>
+                            <code value="1247431" />
+                            <display value="fluorescein / proparacaine Ophthalmic Solution [Flucaine]" />
+                        </concept>
+                        <concept>
+                            <code value="374502" />
+                            <display value="dibucaine Topical Ointment" />
+                        </concept>
+                        <concept>
+                            <code value="1012702" />
+                            <display value="prilocaine hydrochloride 40 MG/ML [Citanest]" />
+                        </concept>
+                        <concept>
+                            <code value="106558" />
+                            <display value="procaine hydrochloride" />
+                        </concept>
+                        <concept>
+                            <code value="1012267" />
+                            <display value="etidocaine hydrochloride 10 MG/ML" />
+                        </concept>
+                        <concept>
+                            <code value="198601" />
+                            <display value="dibucaine 0.01 MG/MG Topical Ointment" />
+                        </concept>
+                        <concept>
+                            <code value="198600" />
+                            <display value="dibucaine 5 MG/ML Topical Cream" />
+                        </concept>
+                        <concept>
+                            <code value="1551415" />
+                            <display value="isoflupredone / neomycin / tetracaine Topical Powder [Neo-Predef]" />
+                        </concept>
+                        <concept>
+                            <code value="1012388" />
+                            <display value="bupivacaine hydrochloride 5 MG/ML / epinephrine 0.005 MG/ML Injectable Solution [Marcaine with Epinephrine]" />
+                        </concept>
+                        <concept>
+                            <code value="1006096" />
+                            <display value="allantoin 0.01 MG/MG / benzocaine 0.2 MG/MG / camphor 0.03 MG/MG / petrolatum 0.649 MG/MG Topical Ointment" />
+                        </concept>
+                        <concept>
+                            <code value="1091066" />
+                            <display value="articaine hydrochloride 40 MG/ML / epinephrine 0.01 MG/ML [Orabloc]" />
+                        </concept>
+                        <concept>
+                            <code value="1012399" />
+                            <display value="bupivacaine Injectable Solution [Marcaine]" />
+                        </concept>
+                        <concept>
+                            <code value="1012475" />
+                            <display value="levobupivacaine hydrochloride 7.5 MG/ML Injectable Solution" />
+                        </concept>
+                        <concept>
+                            <code value="1247428" />
+                            <display value="fluorescein / proparacaine Ophthalmic Solution" />
+                        </concept>
+                        <concept>
+                            <code value="1012725" />
+                            <display value="mepivacaine hydrochloride 10 MG/ML [Polocaine]" />
+                        </concept>
+                        <concept>
+                            <code value="1012400" />
+                            <display value="bupivacaine hydrochloride 2.5 MG/ML Injectable Solution [Marcaine]" />
+                        </concept>
+                        <concept>
+                            <code value="2272605" />
+                            <display value="cocaine hydrochloride 40 MG/ML [Numbrino]" />
+                        </concept>
+                        <concept>
+                            <code value="1007434" />
+                            <display value="amylocaine / lindane" />
+                        </concept>
+                        <concept>
+                            <code value="1012383" />
+                            <display value="bupivacaine hydrochloride 5 MG/ML" />
+                        </concept>
+                        <concept>
+                            <code value="1006989" />
+                            <display value="hematoporphyrin / procaine" />
+                        </concept>
+                        <concept>
+                            <code value="335534" />
+                            <display value="dibucaine 1 MG" />
+                        </concept>
+                        <concept>
+                            <code value="1012726" />
+                            <display value="mepivacaine hydrochloride 10 MG/ML Injectable Solution [Polocaine]" />
+                        </concept>
+                        <concept>
+                            <code value="1009068" />
+                            <display value="dexpanthenol / procaine" />
+                        </concept>
+                        <concept>
+                            <code value="1007429" />
+                            <display value="caffeine / procaine" />
+                        </concept>
+                        <concept>
+                            <code value="372119" />
+                            <display value="etidocaine Injectable Solution" />
+                        </concept>
+                        <concept>
+                            <code value="1012391" />
+                            <display value="30 ML bupivacaine hydrochloride 7.5 MG/ML / epinephrine 0.005 MG/ML Injection" />
+                        </concept>
+                        <concept>
+                            <code value="1008672" />
+                            <display value="dibucaine / policresulen" />
+                        </concept>
+                        <concept>
+                            <code value="1152644" />
+                            <display value="benzocaine / butamben / tetracaine Mucosal Product" />
+                        </concept>
+                        <concept>
+                            <code value="1794184" />
+                            <display value="20 ML chloroprocaine hydrochloride 20 MG/ML Injection" />
+                        </concept>
+                        <concept>
+                            <code value="1156791" />
+                            <display value="proparacaine Ophthalmic Product" />
+                        </concept>
+                        <concept>
+                            <code value="1010617" />
+                            <display value="lidocaine hydrochloride 15 MG/ML" />
+                        </concept>
+                        <concept>
+                            <code value="259453" />
+                            <display value="levobupivacaine" />
+                        </concept>
+                        <concept>
+                            <code value="1010057" />
+                            <display value="lidocaine hydrochloride 0.05 MG/MG Topical Gel" />
+                        </concept>
+                        <concept>
+                            <code value="374458" />
+                            <display value="epinephrine / etidocaine Injectable Solution" />
+                        </concept>
+                        <concept>
+                            <code value="1247445" />
+                            <display value="fluorescein sodium 2.5 MG/ML / proparacaine hydrochloride 5 MG/ML Ophthalmic Solution" />
+                        </concept>
+                        <concept>
+                            <code value="1012706" />
+                            <display value="1.8 ML prilocaine hydrochloride 40 MG/ML Cartridge [Citanest]" />
+                        </concept>
+                        <concept>
+                            <code value="1733865" />
+                            <display value="tetracaine 20 MG/ML Topical Cream" />
+                        </concept>
+                        <concept>
+                            <code value="1793027" />
+                            <display value="lidocaine / tetracaine Medicated Patch" />
+                        </concept>
+                        <concept>
+                            <code value="1007687" />
+                            <display value="dequalinium / tetracaine" />
+                        </concept>
+                        <concept>
+                            <code value="373582" />
+                            <display value="dibucaine / prednisolone Rectal Suppository" />
+                        </concept>
+                        <concept>
+                            <code value="1551410" />
+                            <display value="isoflupredone / neomycin / tetracaine Topical Powder" />
+                        </concept>
+                        <concept>
+                            <code value="1809044" />
+                            <display value="tetracaine hydrochloride 6 MG/ACTUAT" />
+                        </concept>
+                        <concept>
+                            <code value="1607011" />
+                            <display value="camphor / menthol / tetracaine" />
+                        </concept>
+                        <concept>
+                            <code value="1012732" />
+                            <display value="mepivacaine hydrochloride 15 MG/ML [Carbocaine]" />
+                        </concept>
+                        <concept>
+                            <code value="81985" />
+                            <display value="cocaine hydrochloride" />
+                        </concept>
+                        <concept>
+                            <code value="1007312" />
+                            <display value="benzocaine / glycerin" />
+                        </concept>
+                        <concept>
+                            <code value="1722107" />
+                            <display value="benzocaine 140 MG/ML / butamben 20 MG/ML / tetracaine 20 MG/ML Mucosal Spray [Cetacaine]" />
+                        </concept>
+                        <concept>
+                            <code value="1010619" />
+                            <display value="lidocaine hydrochloride 15 MG/ML [Xylocaine]" />
+                        </concept>
+                        <concept>
+                            <code value="1150829" />
+                            <display value="1.7 ML articaine hydrochloride 40 MG/ML / epinephrine 0.005 MG/ML Cartridge [Septocaine]" />
+                        </concept>
+                        <concept>
+                            <code value="1008411" />
+                            <display value="mepivacaine / norepinephrine" />
+                        </concept>
+                        <concept>
+                            <code value="1793029" />
+                            <display value="lidocaine / tetracaine Medicated Patch [Synera]" />
+                        </concept>
+                        <concept>
+                            <code value="2613955" />
+                            <display value="chloroprocaine Ophthalmic Gel" />
+                        </concept>
+                        <concept>
+                            <code value="214545" />
+                            <display value="epinephrine / etidocaine" />
+                        </concept>
+                        <concept>
+                            <code value="1155888" />
+                            <display value="dibucaine Topical Product" />
+                        </concept>
+                        <concept>
+                            <code value="1007578" />
+                            <display value="benzocaine / zirconium oxide" />
+                        </concept>
+                        <concept>
+                            <code value="1733868" />
+                            <display value="tetracaine Topical Cream [Numfast]" />
+                        </concept>
+                        <concept>
+                            <code value="1012376" />
+                            <display value="bupivacaine hydrochloride 2.5 MG/ML" />
+                        </concept>
+                        <concept>
+                            <code value="1012474" />
+                            <display value="levobupivacaine hydrochloride 7.5 MG/ML" />
+                        </concept>
+                        <concept>
+                            <code value="1012396" />
+                            <display value="bupivacaine hydrochloride 2.5 MG/ML Injectable Solution" />
+                        </concept>
+                        <concept>
+                            <code value="1733867" />
+                            <display value="tetracaine 20 MG/ML [Numfast]" />
+                        </concept>
+                        <concept>
+                            <code value="1007277" />
+                            <display value="benzocaine / ethanol / tannic acid" />
+                        </concept>
+                        <concept>
+                            <code value="329468" />
+                            <display value="cocaine 40 MG/ML" />
+                        </concept>
+                        <concept>
+                            <code value="1164859" />
+                            <display value="tetracaine Topical Product" />
+                        </concept>
+                        <concept>
+                            <code value="466457" />
+                            <display value="fluorescein / proparacaine" />
+                        </concept>
+                        <concept>
+                            <code value="3339" />
+                            <display value="dibucaine" />
+                        </concept>
+                        <concept>
+                            <code value="345111" />
+                            <display value="cocaine 50 MG/ML" />
+                        </concept>
+                        <concept>
+                            <code value="1946733" />
+                            <display value="chloroprocaine Injection [Clorotekal]" />
+                        </concept>
+                        <concept>
+                            <code value="1152647" />
+                            <display value="benzocaine / butamben / tetracaine Topical Product" />
+                        </concept>
+                        <concept>
+                            <code value="1946730" />
+                            <display value="5 ML chloroprocaine hydrochloride 10 MG/ML Injection" />
+                        </concept>
+                        <concept>
+                            <code value="1006912" />
+                            <display value="benzocaine / phenylpropanolamine" />
+                        </concept>
+                        <concept>
+                            <code value="1010077" />
+                            <display value="lidocaine hydrochloride 0.04 MG/MG Topical Gel" />
+                        </concept>
+                        <concept>
+                            <code value="1008655" />
+                            <display value="niacin / procaine / salicylamide" />
+                        </concept>
+                        <concept>
+                            <code value="1191013" />
+                            <display value="proparacaine hydrochloride 5 MG/ML Ophthalmic Solution" />
+                        </concept>
+                        <concept>
+                            <code value="1154337" />
+                            <display value="articaine / epinephrine Injectable Product" />
+                        </concept>
+                        <concept>
+                            <code value="1007189" />
+                            <display value="benzocaine / cetylpyridinium / zinc chloride" />
+                        </concept>
+                        <concept>
+                            <code value="1247575" />
+                            <display value="fluorescein sodium 2.5 MG/ML / proparacaine hydrochloride 5 MG/ML [Flucaine]" />
+                        </concept>
+                        <concept>
+                            <code value="1159030" />
+                            <display value="felypressin / prilocaine Injectable Product" />
+                        </concept>
+                        <concept>
+                            <code value="1010671" />
+                            <display value="lidocaine hydrochloride 20 MG/ML Injectable Solution" />
+                        </concept>
+                        <concept>
+                            <code value="1191026" />
+                            <display value="proparacaine hydrochloride 5 MG/ML Ophthalmic Solution [Alcaine]" />
+                        </concept>
+                        <concept>
+                            <code value="992772" />
+                            <display value="cocaine 20 MG/ML / homatropine hydrobromide 20 MG/ML Ophthalmic Solution" />
+                        </concept>
+                        <concept>
+                            <code value="1008532" />
+                            <display value="penicillin G procaine / penicillin G sodium" />
+                        </concept>
+                        <concept>
+                            <code value="1010673" />
+                            <display value="lidocaine hydrochloride 20 MG/ML Injectable Solution [Xylocaine]" />
+                        </concept>
+                        <concept>
+                            <code value="1012710" />
+                            <display value="prilocaine hydrochloride 10 MG/ML" />
+                        </concept>
+                        <concept>
+                            <code value="1012711" />
+                            <display value="prilocaine hydrochloride 10 MG/ML Injectable Solution" />
+                        </concept>
+                        <concept>
+                            <code value="1012480" />
+                            <display value="levobupivacaine hydrochloride 1.25 MG/ML" />
+                        </concept>
+                        <concept>
+                            <code value="1012724" />
+                            <display value="mepivacaine hydrochloride 10 MG/ML Injectable Solution [Carbocaine]" />
+                        </concept>
+                        <concept>
+                            <code value="1247427" />
+                            <display value="fluorescein / proparacaine Ophthalmic Product" />
+                        </concept>
+                        <concept>
+                            <code value="1012390" />
+                            <display value="bupivacaine hydrochloride 7.5 MG/ML" />
+                        </concept>
+                        <concept>
+                            <code value="1012273" />
+                            <display value="etidocaine hydrochloride 15 MG/ML" />
+                        </concept>
+                        <concept>
+                            <code value="34905" />
+                            <display value="proparacaine" />
+                        </concept>
+                        <concept>
+                            <code value="2613956" />
+                            <display value="chloroprocaine hydrochloride 0.03 MG/MG Ophthalmic Gel" />
+                        </concept>
+                        <concept>
+                            <code value="371401" />
+                            <display value="chloroprocaine Injectable Solution" />
+                        </concept>
+                        <concept>
+                            <code value="2272608" />
+                            <display value="cocaine hydrochloride 40 MG/ML Nasal Solution [Numbrino]" />
+                        </concept>
+                        <concept>
+                            <code value="2613954" />
+                            <display value="chloroprocaine Ophthalmic Product" />
+                        </concept>
+                        <concept>
+                            <code value="1155885" />
+                            <display value="dibucaine / prednisolone Rectal Product" />
+                        </concept>
+                        <concept>
+                            <code value="1161729" />
+                            <display value="procaine Injectable Product" />
+                        </concept>
+                        <concept>
+                            <code value="360879" />
+                            <display value="dibucaine 0.011 MG/MG" />
+                        </concept>
+                        <concept>
+                            <code value="1551409" />
+                            <display value="isoflupredone / neomycin / tetracaine Topical Product" />
+                        </concept>
+                        <concept>
+                            <code value="1946732" />
+                            <display value="chloroprocaine hydrochloride 10 MG/ML [Clorotekal]" />
+                        </concept>
+                        <concept>
+                            <code value="1162453" />
+                            <display value="chloroprocaine Injectable Product" />
+                        </concept>
+                        <concept>
+                            <code value="1012467" />
+                            <display value="levobupivacaine hydrochloride 2.5 MG/ML Injectable Solution" />
+                        </concept>
+                        <concept>
+                            <code value="1010296" />
+                            <display value="lidocaine hydrochloride 0.05 MG/MG Topical Ointment" />
+                        </concept>
+                        <concept>
+                            <code value="1091070" />
+                            <display value="articaine hydrochloride 40 MG/ML / epinephrine 0.005 MG/ML [Orabloc]" />
+                        </concept>
+                        <concept>
+                            <code value="1191012" />
+                            <display value="proparacaine hydrochloride 5 MG/ML" />
+                        </concept>
+                        <concept>
+                            <code value="1012722" />
+                            <display value="mepivacaine hydrochloride 10 MG/ML Injectable Solution" />
+                        </concept>
+                        <concept>
+                            <code value="1247453" />
+                            <display value="fluorescein sodium 2.5 MG/ML / proparacaine hydrochloride 5 MG/ML Ophthalmic Solution [Fluoracaine]" />
+                        </concept>
+                        <concept>
+                            <code value="1012720" />
+                            <display value="felypressin 0.03 UNT/ML / prilocaine hydrochloride 30 MG/ML Injectable Solution" />
+                        </concept>
+                        <concept>
+                            <code value="1010298" />
+                            <display value="lidocaine hydrochloride 0.05 MG/MG Topical Ointment [Xylocaine]" />
+                        </concept>
+                        <concept>
+                            <code value="2613961" />
+                            <display value="chloroprocaine hydrochloride 0.03 MG/MG Ophthalmic Gel [Iheezo]" />
+                        </concept>
+                        <concept>
+                            <code value="379376" />
+                            <display value="cocaine Paste" />
+                        </concept>
+                        <concept>
+                            <code value="250343" />
+                            <display value="dibucaine 1 MG / prednisolone 1.3 MG Rectal Suppository" />
+                        </concept>
+                        <concept>
+                            <code value="1010672" />
+                            <display value="lidocaine hydrochloride 20 MG/ML [Xylocaine]" />
+                        </concept>
+                        <concept>
+                            <code value="1007950" />
+                            <display value="tetracaine / tyrothricin" />
+                        </concept>
+                        <concept>
+                            <code value="1794186" />
+                            <display value="20 ML chloroprocaine hydrochloride 20 MG/ML Injection [Nesacaine]" />
+                        </concept>
+                        <concept>
+                            <code value="1006916" />
+                            <display value="benzocaine / isopropyl alcohol" />
+                        </concept>
+                        <concept>
+                            <code value="371606" />
+                            <display value="cocaine Topical Solution" />
+                        </concept>
+                        <concept>
+                            <code value="377429" />
+                            <display value="cocaine / epinephrine Ophthalmic Solution" />
+                        </concept>
+                        <concept>
+                            <code value="235402" />
+                            <display value="dibucaine hydrochloride" />
+                        </concept>
+                        <concept>
+                            <code value="1163876" />
+                            <display value="epinephrine / etidocaine Injectable Product" />
+                        </concept>
+                        <concept>
+                            <code value="1007467" />
+                            <display value="di-isopropylammonium / procaine" />
+                        </concept>
+                        <concept>
+                            <code value="1006997" />
+                            <display value="benzocaine / salicylic acid" />
+                        </concept>
+                        <concept>
+                            <code value="1007553" />
+                            <display value="benzocaine / calamine / camphor" />
+                        </concept>
+                        <concept>
+                            <code value="20859" />
+                            <display value="chloroprocaine" />
+                        </concept>
+                        <concept>
+                            <code value="1011646" />
+                            <display value="1.7 ML articaine hydrochloride 40 MG/ML / epinephrine 0.005 MG/ML Cartridge [Articadent]" />
+                        </concept>
+                        <concept>
+                            <code value="1995293" />
+                            <display value="cocaine hydrochloride 40 MG/ML Nasal Solution [Goprelto]" />
+                        </concept>
+                        <concept>
+                            <code value="1012481" />
+                            <display value="levobupivacaine hydrochloride 1.25 MG/ML Injectable Solution" />
+                        </concept>
+                        <concept>
+                            <code value="1012707" />
+                            <display value="epinephrine 0.005 MG/ML / prilocaine hydrochloride 40 MG/ML Injectable Solution" />
+                        </concept>
+                        <concept>
+                            <code value="329466" />
+                            <display value="cocaine 100 MG/ML" />
+                        </concept>
+                        <concept>
+                            <code value="1191025" />
+                            <display value="proparacaine hydrochloride 5 MG/ML [Alcaine]" />
+                        </concept>
+                        <concept>
+                            <code value="1006265" />
+                            <display value="benzocaine Buccal Film" />
+                        </concept>
+                        <concept>
+                            <code value="1164855" />
+                            <display value="tetracaine Injectable Product" />
+                        </concept>
+                        <concept>
+                            <code value="1012274" />
+                            <display value="epinephrine 0.005 MG/ML / etidocaine hydrochloride 15 MG/ML Injectable Solution" />
+                        </concept>
+                        <concept>
+                            <code value="1551412" />
+                            <display value="isoflupredone acetate 0.001 MG/MG / neomycin 0.0035 MG/MG / tetracaine hydrochloride 0.005 MG/MG Topical Powder" />
+                        </concept>
+                        <concept>
+                            <code value="1164856" />
+                            <display value="tetracaine Ophthalmic Product" />
+                        </concept>
+                        <concept>
+                            <code value="374990" />
+                            <display value="cocaine / homatropine Ophthalmic Solution" />
+                        </concept>
+                        <concept>
+                            <code value="40660" />
+                            <display value="amylocaine" />
+                        </concept>
+                        <concept>
+                            <code value="227221" />
+                            <display value="etidocaine hydrochloride" />
+                        </concept>
+                        <concept>
+                            <code value="1008894" />
+                            <display value="oxyquinoline / tetracaine" />
+                        </concept>
+                        <concept>
+                            <code value="1150828" />
+                            <display value="articaine hydrochloride 40 MG/ML / epinephrine 0.005 MG/ML [Septocaine]" />
+                        </concept>
+                        <concept>
+                            <code value="4171" />
+                            <display value="etidocaine" />
+                        </concept>
+                        <concept>
+                            <code value="1153349" />
+                            <display value="chlorhexidine / tetracaine Oral Product" />
+                        </concept>
+                        <concept>
+                            <code value="107608" />
+                            <display value="felypressin / prilocaine" />
+                        </concept>
+                        <concept>
+                            <code value="1012721" />
+                            <display value="mepivacaine hydrochloride 10 MG/ML" />
+                        </concept>
+                        <concept>
+                            <code value="1011647" />
+                            <display value="articaine hydrochloride 40 MG/ML / epinephrine 0.01 MG/ML [Articadent]" />
+                        </concept>
+                        <concept>
+                            <code value="1000706" />
+                            <display value="benzocaine / salicylamide" />
+                        </concept>
+                        <concept>
+                            <code value="1012705" />
+                            <display value="prilocaine hydrochloride 40 MG/ML Injectable Solution" />
+                        </concept>
+                        <concept>
+                            <code value="1658945" />
+                            <display value="articaine / epinephrine Cartridge" />
+                        </concept>
+                        <concept>
+                            <code value="1163883" />
+                            <display value="epinephrine / prilocaine Injectable Product" />
+                        </concept>
+                        <concept>
+                            <code value="1008052" />
+                            <display value="amylocaine / trichloroacetaldehyde" />
+                        </concept>
+                        <concept>
+                            <code value="1551411" />
+                            <display value="isoflupredone / neomycin / tetracaine" />
+                        </concept>
+                        <concept>
+                            <code value="1008431" />
+                            <display value="adrenalone / tetracaine" />
+                        </concept>
+                        <concept>
+                            <code value="1012734" />
+                            <display value="mepivacaine hydrochloride 15 MG/ML [Polocaine]" />
+                        </concept>
+                        <concept>
+                            <code value="1551414" />
+                            <display value="isoflupredone acetate 0.001 MG/MG / neomycin 0.0035 MG/MG / tetracaine hydrochloride 0.005 MG/MG [Neo-Predef]" />
+                        </concept>
+                        <concept>
+                            <code value="1012384" />
+                            <display value="bupivacaine hydrochloride 5 MG/ML / epinephrine 0.005 MG/ML Injectable Solution" />
+                        </concept>
+                        <concept>
+                            <code value="1012708" />
+                            <display value="epinephrine 0.005 MG/ML / prilocaine hydrochloride 40 MG/ML [Citanest Forte]" />
+                        </concept>
+                        <concept>
+                            <code value="107416" />
+                            <display value="dibucaine 0.011 MG/MG Topical Ointment" />
+                        </concept>
+                        <concept>
+                            <code value="1247449" />
+                            <display value="fluorescein / proparacaine Ophthalmic Solution [Fluoracaine]" />
+                        </concept>
+                        <concept>
+                            <code value="1091072" />
+                            <display value="1.8 ML articaine hydrochloride 40 MG/ML / epinephrine 0.005 MG/ML Cartridge [Orabloc]" />
+                        </concept>
+                        <concept>
+                            <code value="1010679" />
+                            <display value="epinephrine 0.005 MG/ML / lidocaine hydrochloride 10 MG/ML [Xylocaine with Epinephrine]" />
+                        </concept>
+                        <concept>
+                            <code value="1155887" />
+                            <display value="dibucaine Rectal Product" />
+                        </concept>
+                        <concept>
+                            <code value="1006079" />
+                            <display value="benzocaine 0.2 MG/MG / menthol 0.02 MG/MG Oral Gel" />
+                        </concept>
+                        <concept>
+                            <code value="1012268" />
+                            <display value="epinephrine 0.005 MG/ML / etidocaine hydrochloride 10 MG/ML Injectable Solution" />
+                        </concept>
+                        <concept>
+                            <code value="53616" />
+                            <display value="chloroprocaine hydrochloride" />
+                        </concept>
+                        <concept>
+                            <code value="1010076" />
+                            <display value="lidocaine hydrochloride 0.04 MG/MG" />
+                        </concept>
+                        <concept>
+                            <code value="1007381" />
+                            <display value="nitrofurantoin / tetracaine" />
+                        </concept>
+                        <concept>
+                            <code value="1794185" />
+                            <display value="chloroprocaine Injection [Nesacaine]" />
+                        </concept>
+                        <concept>
+                            <code value="1012718" />
+                            <display value="prilocaine hydrochloride 30 MG/ML" />
+                        </concept>
+                        <concept>
+                            <code value="235793" />
+                            <display value="amylocaine hydrochloride" />
+                        </concept>
+                        <concept>
+                            <code value="1164058" />
+                            <display value="lidocaine / prilocaine Topical Product" />
+                        </concept>
+                        <concept>
+                            <code value="1008455" />
+                            <display value="aminoquinuride / tetracaine" />
+                        </concept>
+                        <concept>
+                            <code value="1163455" />
+                            <display value="levobupivacaine Injectable Product" />
+                        </concept>
+                        <concept>
+                            <code value="345112" />
+                            <display value="cocaine 200 MG/ML" />
+                        </concept>
+                        <concept>
+                            <code value="1008462" />
+                            <display value="dibucaine / phenylbutazone" />
+                        </concept>
+                        <concept>
+                            <code value="1595029" />
+                            <display value="1.7 ML articaine hydrochloride 40 MG/ML / epinephrine 0.005 MG/ML Cartridge" />
+                        </concept>
+                        <concept>
+                            <code value="1012394" />
+                            <display value="bupivacaine / epinephrine Injectable Solution [Marcaine with Epinephrine]" />
+                        </concept>
+                        <concept>
+                            <code value="1012471" />
+                            <display value="levobupivacaine hydrochloride 5 MG/ML Injectable Solution" />
+                        </concept>
+                        <concept>
+                            <code value="1091068" />
+                            <display value="1.8 ML articaine hydrochloride 40 MG/ML / epinephrine 0.01 MG/ML Cartridge [Orabloc]" />
+                        </concept>
+                        <concept>
+                            <code value="1012735" />
+                            <display value="30 ML mepivacaine hydrochloride 15 MG/ML Injection [Polocaine]" />
+                        </concept>
+                        <concept>
+                            <code value="1007311" />
+                            <display value="benzocaine / glycerin / menthol" />
+                        </concept>
+                        <concept>
+                            <code value="1007013" />
+                            <display value="chlorhexidine / muramidase / tetracaine" />
+                        </concept>
+                        <concept>
+                            <code value="1012379" />
+                            <display value="bupivacaine hydrochloride 2.5 MG/ML / epinephrine 0.005 MG/ML [Marcaine with Epinephrine]" />
+                        </concept>
+                        <concept>
+                            <code value="1007478" />
+                            <display value="benzalkonium / mepivacaine / polidocanol" />
+                        </concept>
+                        <concept>
+                            <code value="1012739" />
+                            <display value="mepivacaine hydrochloride 20 MG/ML Injectable Solution [Carbocaine]" />
+                        </concept>
+                        <concept>
+                            <code value="93459" />
+                            <display value="chloroprocaine Injectable Solution [Nesacaine]" />
+                        </concept>
+                        <concept>
+                            <code value="377428" />
+                            <display value="cocaine Nasal Solution" />
+                        </concept>
+                        <concept>
+                            <code value="1007427" />
+                            <display value="pangamic acid / procaine" />
+                        </concept>
+                        <concept>
+                            <code value="1733870" />
+                            <display value="tetracaine 20 MG/ML Topical Cream [Numfast]" />
+                        </concept>
+                        <concept>
+                            <code value="259454" />
+                            <display value="levobupivacaine hydrochloride" />
+                        </concept>
+                        <concept>
+                            <code value="1094909" />
+                            <display value="penicillin G procaine 300000 UNT/ML [Pen-Aqueous]" />
+                        </concept>
+                        <concept>
+                            <code value="1012737" />
+                            <display value="mepivacaine hydrochloride 20 MG/ML Injectable Solution" />
+                        </concept>
+                        <concept>
+                            <code value="1157387" />
+                            <display value="etidocaine Injectable Product" />
+                        </concept>
+                        <concept>
+                            <code value="1012398" />
+                            <display value="bupivacaine hydrochloride 2.5 MG/ML [Marcaine]" />
+                        </concept>
+                        <concept>
+                            <code value="1007479" />
+                            <display value="acetic acid / benzocaine" />
+                        </concept>
+                        <concept>
+                            <code value="1946735" />
+                            <display value="5 ML chloroprocaine hydrochloride 10 MG/ML Injection [Clorotekal]" />
+                        </concept>
+                        <concept>
+                            <code value="1722106" />
+                            <display value="benzocaine / butamben / tetracaine Mucosal Spray [Cetacaine]" />
+                        </concept>
+                        <concept>
+                            <code value="1233291" />
+                            <display value="penicillin G benzathine 150000 UNT/ML / penicillin G procaine 150000 UNT/ML [Combi-Pen-48]" />
+                        </concept>
+                        <concept>
+                            <code value="1011648" />
+                            <display value="1.7 ML articaine hydrochloride 40 MG/ML / epinephrine 0.01 MG/ML Cartridge [Articadent]" />
+                        </concept>
+                        <concept>
+                            <code value="340050" />
+                            <display value="dibucaine 5 MG/ML" />
+                        </concept>
+                        <concept>
+                            <code value="1012699" />
+                            <display value="prilocaine hydrochloride 40 MG/ML" />
+                        </concept>
+                        <concept>
+                            <code value="1164060" />
+                            <display value="lidocaine / tetracaine Topical Product" />
+                        </concept>
+                        <concept>
+                            <code value="1164057" />
+                            <display value="lidocaine / prilocaine Mucosal Product" />
+                        </concept>
+                        <concept>
+                            <code value="1595035" />
+                            <display value="1.7 ML articaine hydrochloride 40 MG/ML / epinephrine 0.01 MG/ML Cartridge" />
+                        </concept>
+                        <concept>
+                            <code value="2653" />
+                            <display value="cocaine" />
+                        </concept>
+                        <concept>
+                            <code value="1012470" />
+                            <display value="levobupivacaine hydrochloride 5 MG/ML" />
+                        </concept>
+                        <concept>
+                            <code value="1007475" />
+                            <display value="benzalkonium / benzocaine / hexylresorcinol" />
+                        </concept>
+                        <concept>
+                            <code value="329041" />
+                            <display value="dibucaine 0.01 MG/MG" />
+                        </concept>
+                        <concept>
+                            <code value="1012733" />
+                            <display value="30 ML mepivacaine hydrochloride 15 MG/ML Injection [Carbocaine]" />
+                        </concept>
+                        <concept>
+                            <code value="1794183" />
+                            <display value="chloroprocaine Injection" />
+                        </concept>
+                        <concept>
+                            <code value="1153348" />
+                            <display value="chlorhexidine / tetracaine Oral Liquid Product" />
+                        </concept>
+                        <concept>
+                            <code value="1008890" />
+                            <display value="dibucaine / prednisolone" />
+                        </concept>
+                        <concept>
+                            <code value="1012107" />
+                            <display value="bupivacaine hydrochloride 3.75 MG/ML" />
+                        </concept>
+                        <concept>
+                            <code value="1161714" />
+                            <display value="prilocaine Injectable Product" />
+                        </concept>
+                        <concept>
+                            <code value="331744" />
+                            <display value="cocaine 20 MG/ML" />
+                        </concept>
+                        <concept>
+                            <code value="1233537" />
+                            <display value="penicillin G procaine 300000 UNT/ML [Pro-Pen-G]" />
+                        </concept>
+                        <concept>
+                            <code value="363715" />
+                            <display value="proparacaine Ophthalmic Solution [Alcaine]" />
+                        </concept>
+                        <concept>
+                            <code value="10391" />
+                            <display value="tetracaine" />
+                        </concept>
+                        <concept>
+                            <code value="1012723" />
+                            <display value="mepivacaine hydrochloride 10 MG/ML [Carbocaine]" />
+                        </concept>
+                        <concept>
+                            <code value="1012377" />
+                            <display value="bupivacaine hydrochloride 2.5 MG/ML / epinephrine 0.005 MG/ML Injectable Solution" />
+                        </concept>
+                        <concept>
+                            <code value="1012738" />
+                            <display value="mepivacaine hydrochloride 20 MG/ML [Carbocaine]" />
+                        </concept>
+                        <concept>
+                            <code value="1008941" />
+                            <display value="choline / procaine" />
+                        </concept>
+                        <concept>
+                            <code value="1012466" />
+                            <display value="levobupivacaine hydrochloride 2.5 MG/ML" />
+                        </concept>
+                        <concept>
+                            <code value="1012740" />
+                            <display value="mepivacaine hydrochloride 20 MG/ML [Polocaine]" />
+                        </concept>
+                        <concept>
+                            <code value="1010670" />
+                            <display value="lidocaine hydrochloride 20 MG/ML" />
+                        </concept>
+                        <concept>
+                            <code value="1012736" />
+                            <display value="mepivacaine hydrochloride 20 MG/ML" />
+                        </concept>
+                        <concept>
+                            <code value="376490" />
+                            <display value="dibucaine Rectal Ointment" />
+                        </concept>
+                        <concept>
+                            <code value="1012381" />
+                            <display value="bupivacaine hydrochloride 2.5 MG/ML / epinephrine 0.005 MG/ML Injectable Solution [Marcaine with Epinephrine]" />
+                        </concept>
+                        <concept>
+                            <code value="1007155" />
+                            <display value="benzocaine / lindane" />
+                        </concept>
+                        <concept>
+                            <code value="360885" />
+                            <display value="cocaine 0.1 MG/MG" />
+                        </concept>
+                        <concept>
+                            <code value="1012730" />
+                            <display value="mepivacaine hydrochloride 15 MG/ML" />
+                        </concept>
+                        <concept>
+                            <code value="1006095" />
+                            <display value="allantoin / benzocaine / camphor / petrolatum Topical Ointment" />
+                        </concept>
+                        <concept>
+                            <code value="1012709" />
+                            <display value="1.7 ML epinephrine 0.005 MG/ML / prilocaine hydrochloride 40 MG/ML Cartridge [Citanest Forte]" />
+                        </concept>                         
                     </include>
         </compose>
       </ValueSet>

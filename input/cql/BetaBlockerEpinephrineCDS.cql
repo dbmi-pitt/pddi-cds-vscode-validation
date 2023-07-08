@@ -6,16 +6,16 @@ include FHIRHelpers version '4.0.1' called FHIRHelpers
 codesystem "RXNORM": 'http://www.nlm.nih.gov/research/umls/rxnorm'
 codesystem "LOINC": 'http://loinc.org'
 
-valueset "Inhaled Epinephrine": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-inhaledEpinephrine' //
+valueset "Inhaled Epinephrine": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-inhaledEpinephrine' // need to finish tomorrow 7/9
 valueset "Ophthalmic Epinephrine": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-opthalmicEpinephrine' //
 valueset "Injectable Epinephrine":'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-injectableEpinephrine'
 valueset "Selective BetaBlocker": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-selectivebetablocker'
 valueset "Non-Selective Blocker":'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-nonselectiveblocker'
 valueset "Opthalmic Timolol Solution": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-opthalmictimololsolution'
 valueset "Opthalmic Timolol Gel": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-opthalmictimololgel'
-valueset "Oral Timolol": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-oraltimolol'//
+valueset "Oral Timolol": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-oraltimolol'
 valueset "Alpha-Blocking Agent": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-alphablockingagent'
-valueset "Local Anesthetic":'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-localanesthetic' // Add local anestethics without current combinations
+valueset "Local Anesthetic":'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-localanesthetic' 
 
 
 code "dental": '54571-5' from "LOINC" display 'Dental' // can also create valuset of ICD codes
@@ -239,9 +239,9 @@ define "Dose below 0.6 mg":
     )
 
 define "Dose range between 0.3 and 0.6":
-"Dose above 0.3 mg"
-union 
-"Dose below 0.6 mg"
+exists "Dose above 0.3 mg"
+and  
+exists "Dose below 0.6 mg"
 
 
 

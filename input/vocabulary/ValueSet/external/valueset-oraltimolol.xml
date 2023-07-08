@@ -1,0 +1,54 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="valueset-oraltimolol"/>
+                <url value="http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-oraltimolol"/>
+                <name value="valueset-oraltimolol"/>
+                <version value="US 1.0"/>
+                <title value="Oral Timolol Medications Value Set"/>
+                <status value="draft"/>
+                <date value="2018-06-20"/>
+                <publisher value="PDDI CDS"/>
+                <contact>
+                    <name value="Kojo Abanyie koa27@pitt.edu"/>
+                </contact>
+                <description
+                        value="This set of values contains Oral Timolol medications."/>
+                <jurisdiction>
+                    <coding>
+                        <system value="urn:iso:std:iso:3166"/>
+                        <code value="US"/>
+                        <display value="United States of America"/>
+                    </coding>
+                </jurisdiction>
+                <purpose value="Provide terminology for PDDI CDS (Epinephrine + Beta Blocker rule) FHIR resources"/>
+                <copyright value="Attribution CC BY"/>
+                <compose>
+                    <include>
+                        <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                        <version value="04-Jun-2018"/>
+                        <concept>
+                            <code value="198285" />
+                            <display value="timolol 20 MG Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="1157086" />
+                            <display value="timolol Pill" />
+                        </concept>
+                        <concept>
+                            <code value="198284" />
+                            <display value="timolol 10 MG Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="198286" />
+                            <display value="timolol 5 MG Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="374135" />
+                            <display value="timolol Oral Tablet" />
+                        </concept>
+                        <concept>
+                            <code value="1157101" />
+                            <display value="timolol Oral Product" />
+                        </concept>
+                    </include>
+                </compose>
+</ValueSet>

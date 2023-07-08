@@ -1,13 +1,13 @@
 {
     "resourceType": "MedicationStatement",
-    "id": "patient-Clon-AlphB-",
+    "id": "patient-Clon-AlphB-OrTimolol",
     "status": "active",
     "medicationCodeableConcept": {
       "coding": [
         {
-          "display": "",
+          "display": "timolol 20 MG Oral Tablet",
           "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
-          "code": ""
+          "code": "198285"
         }
       ]
     },
