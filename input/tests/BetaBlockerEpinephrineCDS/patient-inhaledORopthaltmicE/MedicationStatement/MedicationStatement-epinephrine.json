@@ -1,6 +1,6 @@
 {
     "resourceType": "MedicationStatement",
-    "id": "patient-Clon-AlphB-epinephrine",
+    "id": "patient-inhaledORopthaltmicE-epinephrine",
     "status": "active",
     "medicationCodeableConcept": {
       "coding": [
@@ -12,7 +12,7 @@
       ]
     },
     "subject": {
-      "reference": "Patient/patient-Clon-AlphB"
+      "reference": "Patient/patient-inhaledORopthaltmicE"
     },
     "effectivePeriod": {
         "start": "2023-03-17T23:59:59+06:00",

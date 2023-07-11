@@ -1,18 +1,18 @@
 {
     "resourceType": "MedicationStatement",
-    "id": "patient-Clon-AlphB-OrTimolol",
+    "id": "patient-inhaledORopthaltmicE-inahledEpinephrine",
     "status": "active",
     "medicationCodeableConcept": {
       "coding": [
         {
-          "display": "timolol 20 MG Oral Tablet",
+          "display": "160 ACTUAT epinephrine 0.125 MG/ACTUAT Metered Dose Inhaler",
           "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
-          "code": "198285"
+          "code": "2109083"
         }
       ]
     },
     "subject": {
-      "reference": "Patient/patient-Clon-AlphB"
+      "reference": "Patient/patient-inhaledORopthaltmicE"
     },
     "effectivePeriod": {
         "start": "2023-03-17T23:59:59+06:00",

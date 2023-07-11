@@ -1,6 +1,6 @@
 {
 "resourceType": "Condition",
-      "id": "patient-dental",
+      "id": "patient-anesthetic-plastic-dental",
       "code": {
         "coding": [ {
           "system": "http://loinc.org",
@@ -9,7 +9,7 @@
         } ]
       },
       "subject": {
-        "reference": "Patient/"
+        "reference": "Patient/patient-anesthetic-plastic"
       },
       "onsetDateTime": "2023-07-30T01:00:00.000-05:00"
     

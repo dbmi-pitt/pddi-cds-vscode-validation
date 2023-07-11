@@ -1,18 +1,18 @@
 {
     "resourceType": "MedicationStatement",
-    "id": "patient-Clon-AlphB-",
+    "id": "patient-Inj-OrTim-oralclonidine",
     "status": "active",
     "medicationCodeableConcept": {
       "coding": [
         {
-          "display": "",
+          "display": "clonidine hydrochloride 0.15 MG Oral Tablet",
           "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
-          "code": ""
+          "code": "1233709"
         }
       ]
     },
     "subject": {
-      "reference": "Patient/patient-Clon-AlphB"
+      "reference": "Patient/patient-Inj-OrTim"
     },
     "effectivePeriod": {
         "start": "2023-03-17T23:59:59+06:00",

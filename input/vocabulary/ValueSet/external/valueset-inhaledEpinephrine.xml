@@ -1,0 +1,66 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="valueset-inhaledEpinephrine"/>
+                <url value="http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-inhaledEpinephrine"/>
+                <name value="valueset-inhaledEpinephrine"/>
+                <version value="US 1.0"/>
+                <title value="Inhaled Epinephrine Medications Value Set"/>
+                <status value="draft"/>
+                <date value="2018-06-20"/>
+                <publisher value="PDDI CDS"/>
+                <contact>
+                    <name value="Kojo Abanyie koa27@pitt.edu"/>
+                </contact>
+                <description
+                        value="This set of values contains Inhaled Epinephrine medications."/>
+                <jurisdiction>
+                    <coding>
+                        <system value="urn:iso:std:iso:3166"/>
+                        <code value="US"/>
+                        <display value="United States of America"/>
+                    </coding>
+                </jurisdiction>
+                <purpose value="Provide terminology for PDDI CDS (Epinephrine + Beta Blocker rule) FHIR resources"/>
+                <copyright value="Attribution CC BY"/>
+                <compose>
+                    <include>
+                        <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                        <version value="04-Jun-2018"/>
+                        <concept>
+                            <code value="2594048" />
+                            <display value="epinephrine 0.125 MG/ACTUAT [Primatene Mist Inhaler]" />
+                        </concept>
+                        <concept>
+                            <code value="2108382" />
+                            <display value="epinephrine Inhalation Solution" />
+                        </concept>
+                        <concept>
+                            <code value="2109083" />
+                            <display value="160 ACTUAT epinephrine 0.125 MG/ACTUAT Metered Dose Inhaler" />
+                        </concept>
+                        <concept>
+                            <code value="746208" />
+                            <display value="epinephrine Metered Dose Inhaler [Primatene Mist Inhaler]" />
+                        </concept>
+                        <concept>
+                            <code value="746206" />
+                            <display value="epinephrine Metered Dose Inhaler" />
+                        </concept>
+                        <concept>
+                            <code value="1163886" />
+                            <display value="epinephrine Inhalant Product" />
+                        </concept>
+                        <concept>
+                            <code value="883806" />
+                            <display value="270 ACTUAT epinephrine 0.22 MG/ACTUAT Metered Dose Inhaler" />
+                        </concept>
+                        <concept>
+                            <code value="2109088" />
+                            <display value="160 ACTUAT epinephrine 0.125 MG/ACTUAT Metered Dose Inhaler [Primatene Mist Inhaler]" />
+                        </concept>
+                        <concept>
+                            <code value="1546217" />
+                            <display value="epinephrine 0.22 MG Inhalation Powder" />
+                        </concept>                        
+            </include>
+        </compose>
+      </ValueSet>

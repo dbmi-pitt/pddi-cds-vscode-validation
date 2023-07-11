@@ -1,4 +1,4 @@
-library BetaBlockerEpinephrineCDS version '0.1.0'
+library BetaBlockerEpinephrineCDS version '0.1.0' // This rule assumes epinephrine is given after beta blocker
 
 using FHIR version '4.0.1'
 include FHIRHelpers version '4.0.1' called FHIRHelpers
@@ -6,8 +6,8 @@ include FHIRHelpers version '4.0.1' called FHIRHelpers
 codesystem "RXNORM": 'http://www.nlm.nih.gov/research/umls/rxnorm'
 codesystem "LOINC": 'http://loinc.org'
 
-valueset "Inhaled Epinephrine": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-inhaledEpinephrine' // need to finish tomorrow 7/9
-valueset "Ophthalmic Epinephrine": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-opthalmicEpinephrine' //
+valueset "Inhaled Epinephrine": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-inhaledEpinephrine' 
+valueset "Ophthalmic Epinephrine": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-opthalmicEpinephrine' 
 valueset "Injectable Epinephrine":'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-injectableEpinephrine'
 valueset "Selective BetaBlocker": 'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-selectivebetablocker'
 valueset "Non-Selective Blocker":'http://hl7.org/fhir/ig/PDDI-CDS/ValueSet/valueset-nonselectiveblocker'
@@ -58,7 +58,6 @@ define function ToQuantity(quantity FHIR.Quantity):
 
 define function ToString(value FHIR.Coding): value.display.value
 define function ToString(value Code): value.display
-
 
 
 define "Inhaled Epinephrine Rx":
