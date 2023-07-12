@@ -1,0 +1,16 @@
+{
+"resourceType": "Condition",
+      "id": "patient-Inj-anaphylaxis-no-anaphylaxis",
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "LA7413-3",
+          "display": "Anaphylaxis"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/patient-Inj-anaphylaxis-no"
+      },
+      "onsetDateTime": "2023-07-30T01:00:00.000-05:00"
+    
+    }

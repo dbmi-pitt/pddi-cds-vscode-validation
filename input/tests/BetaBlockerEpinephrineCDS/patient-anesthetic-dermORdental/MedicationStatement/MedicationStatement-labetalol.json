@@ -1,13 +1,13 @@
 {
     "resourceType": "MedicationStatement",
-    "id": "patient-inhaledORopthaltmicE-epinephrine",
+    "id": "patient-inhaledORopthaltmicE-labetalol",
     "status": "active",
     "medicationCodeableConcept": {
       "coding": [
         {
-          "display": "",
+          "display": "labetalol hydrochloride 100 MG",
           "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
-          "code": ""
+          "code": "896757"
         }
       ]
     },
